@@ -7,7 +7,7 @@
     <section id="about" class="about">
         <div class="container">
 
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
                     <img src="assets/img/about.jpg" class="img-fluid" alt="">
                 </div>
@@ -24,7 +24,63 @@
                     </ul>
                     <a href="#" class="read-more">Read More <i class="bi bi-long-arrow-right"></i></a>
                 </div>
-            </div>
+            </div> -->
+
+            <div id="map"></div>
+            <script src="<?= base_url('assets/json/data-halte.js') ?>" type="text/javascript"></script>
+            <!-- MAP SCRIPT -->
+            <script>
+                // Open Street Map Integration
+                var map = L.map('map').setView([0.510394, 101.448786], 12);
+
+                var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+                    maxZoom: 18,
+                    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
+                        'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                    id: 'mapbox/light-v9',
+                    tileSize: 512,
+                    zoomOffset: -1
+                }).addTo(map);
+
+                // Icon
+                var busIcon = L.icon({
+                    iconUrl: '<?= base_url('assets/img/bus.png') ?>',
+                    iconSize: [12, 17],
+                    iconAnchor: [16, 37],
+                    popupAnchor: [0, -28]
+                });
+
+                // function onEachFeature(feature, layer) {
+                //     var popupContent = layer.bindPopup('<h1>' + feature.properties.Nama_Halte + '</h1><p>name: ' + feature.properties.Koridor + '</p>');
+
+                //     if (feature.properties && feature.properties.popupContent) {
+                //         popupContent += feature.properties.popupContent;
+                //     }
+
+                //     layer.bindPopup(popupContent);
+                // }
+
+                var coorsLayer = L.geoJSON(halte_bus, {
+
+                    pointToLayer: function(feature, latlng) {
+                        return L.marker(latlng, {
+                            icon: busIcon
+                        });
+                    },
+
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup(
+                            '<p><b>Nama Halte:</b> <br>' + feature.properties.Nama_Halte +
+                            '</p><p><b>Koridor:</b> <br>' + feature.properties.Koridor + '</p>' +
+                            '</p><p><b>Alamat:</b> <br>' + feature.properties.Alamat + '</p>' +
+                            '</p><p><b>Tujuan:</b> <br>' + feature.properties.Tujuan + '</p>' +
+                            '</p><p><b>Rute:</b> <br>' + feature.properties.Rute + '</p>' +
+                            '</p><p><b>Kelayakan:</b> <br>' + feature.properties.Kelayakan + '</p>'
+                        );
+                    }
+
+                }).addTo(map);
+            </script>
 
         </div>
     </section><!-- End About Section -->
