@@ -330,10 +330,16 @@
                     zoomOffset: -1
                 }).addTo(map);
 
-                // Icon
+                // Marker
                 var busIcon = L.icon({
                     iconUrl: '<?= base_url('assets/img/bus.png') ?>',
-                    iconSize: [12, 17],
+                    iconSize: [17, 17],
+                    iconAnchor: [16, 37],
+                    popupAnchor: [0, -28]
+                });
+                var busIcon2 = L.icon({
+                    iconUrl: '<?= base_url('assets/img/favicon.png') ?>',
+                    iconSize: [17, 17],
                     iconAnchor: [16, 37],
                     popupAnchor: [0, -28]
                 });
@@ -351,9 +357,17 @@
                 var coorsLayer = L.geoJSON(null, {
 
                     pointToLayer: function(feature, latlng) {
-                        return L.marker(latlng, {
-                            icon: busIcon
-                        });
+                        switch (feature.properties.Koridor) {
+                            case "4A":
+                                return L.marker(latlng, {
+                                    icon: busIcon2
+                                });
+                                break;
+                            default:
+                                return L.marker(latlng, {
+                                    icon: busIcon
+                                });
+                        }
                     },
 
                     onEachFeature: function(feature, layer) {
