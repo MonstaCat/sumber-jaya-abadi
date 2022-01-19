@@ -331,14 +331,104 @@
                 }).addTo(map);
 
                 // Marker
-                var busIcon = L.icon({
+                var bus = L.icon({
                     iconUrl: '<?= base_url('assets/img/bus.png') ?>',
                     iconSize: [17, 17],
                     iconAnchor: [16, 37],
                     popupAnchor: [0, -28]
                 });
-                var busIcon2 = L.icon({
-                    iconUrl: '<?= base_url('assets/img/favicon.png') ?>',
+                var bus1 = L.icon({
+                    iconUrl: '<?= base_url('assets/img/bus-01.png') ?>',
+                    iconSize: [17, 17],
+                    iconAnchor: [16, 37],
+                    popupAnchor: [0, -28]
+                });
+                var bus1a = L.icon({
+                    iconUrl: '<?= base_url('assets/img/bus-1a.png') ?>',
+                    iconSize: [17, 17],
+                    iconAnchor: [16, 37],
+                    popupAnchor: [0, -28]
+                });
+                var bus2 = L.icon({
+                    iconUrl: '<?= base_url('assets/img/bus-02.png') ?>',
+                    iconSize: [17, 17],
+                    iconAnchor: [16, 37],
+                    popupAnchor: [0, -28]
+                });
+                var bus3 = L.icon({
+                    iconUrl: '<?= base_url('assets/img/bus-03.png') ?>',
+                    iconSize: [17, 17],
+                    iconAnchor: [16, 37],
+                    popupAnchor: [0, -28]
+                });
+                var bus4a = L.icon({
+                    iconUrl: '<?= base_url('assets/img/bus-4a.png') ?>',
+                    iconSize: [17, 17],
+                    iconAnchor: [16, 37],
+                    popupAnchor: [0, -28]
+                });
+                var bus4b = L.icon({
+                    iconUrl: '<?= base_url('assets/img/bus-4b.png') ?>',
+                    iconSize: [17, 17],
+                    iconAnchor: [16, 37],
+                    popupAnchor: [0, -28]
+                });
+                var bus4c = L.icon({
+                    iconUrl: '<?= base_url('assets/img/bus-4c.png') ?>',
+                    iconSize: [17, 17],
+                    iconAnchor: [16, 37],
+                    popupAnchor: [0, -28]
+                });
+                var bus5 = L.icon({
+                    iconUrl: '<?= base_url('assets/img/bus-05.png') ?>',
+                    iconSize: [17, 17],
+                    iconAnchor: [16, 37],
+                    popupAnchor: [0, -28]
+                });
+                var bus6 = L.icon({
+                    iconUrl: '<?= base_url('assets/img/bus-06.png') ?>',
+                    iconSize: [17, 17],
+                    iconAnchor: [16, 37],
+                    popupAnchor: [0, -28]
+                });
+                var bus7a = L.icon({
+                    iconUrl: '<?= base_url('assets/img/bus-7a.png') ?>',
+                    iconSize: [17, 17],
+                    iconAnchor: [16, 37],
+                    popupAnchor: [0, -28]
+                });
+                var bus7b = L.icon({
+                    iconUrl: '<?= base_url('assets/img/bus-7b.png') ?>',
+                    iconSize: [17, 17],
+                    iconAnchor: [16, 37],
+                    popupAnchor: [0, -28]
+                });
+                var bus8a = L.icon({
+                    iconUrl: '<?= base_url('assets/img/bus-8a.png') ?>',
+                    iconSize: [17, 17],
+                    iconAnchor: [16, 37],
+                    popupAnchor: [0, -28]
+                });
+                var bus8b = L.icon({
+                    iconUrl: '<?= base_url('assets/img/bus-8b.png') ?>',
+                    iconSize: [17, 17],
+                    iconAnchor: [16, 37],
+                    popupAnchor: [0, -28]
+                });
+                var bus9 = L.icon({
+                    iconUrl: '<?= base_url('assets/img/bus-09.png') ?>',
+                    iconSize: [17, 17],
+                    iconAnchor: [16, 37],
+                    popupAnchor: [0, -28]
+                });
+                var bus10 = L.icon({
+                    iconUrl: '<?= base_url('assets/img/bus-10.png') ?>',
+                    iconSize: [17, 17],
+                    iconAnchor: [16, 37],
+                    popupAnchor: [0, -28]
+                });
+                var bustransit = L.icon({
+                    iconUrl: '<?= base_url('assets/img/bus-transit.png') ?>',
                     iconSize: [17, 17],
                     iconAnchor: [16, 37],
                     popupAnchor: [0, -28]
@@ -360,87 +450,87 @@
                         switch (feature.properties.Koridor) {
                             case "1A":
                                 return L.marker(latlng, {
-                                    icon: busIcon2
+                                    icon: bus1a
                                 });
                                 break;
                             case "1":
                                 return L.marker(latlng, {
-                                    icon: busIcon2
+                                    icon: bus1
                                 });
                                 break;
                             case "2":
                                 return L.marker(latlng, {
-                                    icon: busIcon2
+                                    icon: bus2
                                 });
                                 break;
                             case "3":
                                 return L.marker(latlng, {
-                                    icon: busIcon2
+                                    icon: bus3
                                 });
                                 break;
                             case "4A":
                                 return L.marker(latlng, {
-                                    icon: busIcon2
+                                    icon: bus4a
                                 });
                                 break;
                             case "4B":
                                 return L.marker(latlng, {
-                                    icon: busIcon2
+                                    icon: bus4b
                                 });
                                 break;
                             case "4C":
                                 return L.marker(latlng, {
-                                    icon: busIcon2
+                                    icon: bus4c
                                 });
                                 break;
                             case "5":
                                 return L.marker(latlng, {
-                                    icon: busIcon2
+                                    icon: bus5
                                 });
                                 break;
                             case "6":
                                 return L.marker(latlng, {
-                                    icon: busIcon2
+                                    icon: bus6
                                 });
                                 break;
                             case "7A":
                                 return L.marker(latlng, {
-                                    icon: busIcon2
+                                    icon: bus7a
                                 });
                                 break;
                             case "7B":
                                 return L.marker(latlng, {
-                                    icon: busIcon2
+                                    icon: bus7b
                                 });
                                 break;
                             case "8A":
                                 return L.marker(latlng, {
-                                    icon: busIcon2
+                                    icon: bus8a
                                 });
                                 break;
                             case "8B":
                                 return L.marker(latlng, {
-                                    icon: busIcon2
+                                    icon: bus8b
                                 });
                                 break;
                             case "9":
                                 return L.marker(latlng, {
-                                    icon: busIcon2
+                                    icon: bus9
                                 });
                                 break;
                             case "10":
                                 return L.marker(latlng, {
-                                    icon: busIcon2
+                                    icon: bus10
                                 });
                                 break;
                             case "HalteTransit":
                                 return L.marker(latlng, {
-                                    icon: busIcon2
+                                    icon: bustransit
                                 });
                                 break;
                             default:
                                 return L.marker(latlng, {
-                                    icon: busIcon
+                                    icon: bus
                                 });
                         }
                     },
@@ -498,22 +588,24 @@
     </section>
     <!-- End Bus Stop Section -->
 
-    // Koridor 1A = #44123c
-    // Koridor 01 = #00318a
-    // Koridor 02 = #06552e
-    // Koridor 03 = #c87022
-    // Koridor 4A = #b21a1f
-    // Koridor 4B = #b21a1f
-    // Koridor 4C = #ad1818
-    // Koridor 05 = #872a6b
-    // Koridor 06 = #68344d
-    // Koridor 7A = #01928d
-    // Koridor 7B = #076a59
-    // Koridor 8A = #7ca71d
-    // Koridor 8B = #7ca71d
-    // Koridor 09 = #7ca71d
-    // Koridor 10 = #7ca71d
-    // Halte Transit = #7ca71d
+    <!--
+    Koridor 1A = #44123c
+    Koridor 01 = #00318a
+    Koridor 02 = #06552e
+    Koridor 03 = #c87022
+    Koridor 4A = #b21a1f
+    Koridor 4B = #b21a1f
+    Koridor 4C = #ad1818
+    Koridor 05 = #872a6b
+    Koridor 06 = #68344d
+    Koridor 7A = #01928d
+    Koridor 7B = #076a59
+    Koridor 8A = #7ca71d
+    Koridor 8B = #7ca71d
+    Koridor 09 = #7ca71d
+    Koridor 10 = #7ca71d
+    Halte Transit = #7ca71d
+    -->
 
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq">
