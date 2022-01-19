@@ -662,6 +662,46 @@
                         );
                     },
 
+                    style: function(feature) {
+                        switch (feature.properties.RuteKoridor) {
+                            case 'Koridor 4A - 4C':
+                                return {
+                                    color: "#ab161d",
+                                        weight: "4",
+                                        opacity: "0.5"
+                                };
+                                break;
+                            case 'Koridor 7A':
+                                return {
+                                    color: "#0d8a84",
+                                        weight: "4",
+                                        opacity: "0.5"
+                                };
+                                break;
+                            case 'Koridor 3':
+                                return {
+                                    color: "#cd6e1e",
+                                        weight: "4",
+                                        opacity: "0.5"
+                                };
+                                break;
+                            case 'Koridor 1A - 6':
+                                return {
+                                    color: "#431041",
+                                        weight: "4",
+                                        opacity: "0.5"
+                                };
+                                break;
+                            case 'Koridor 1':
+                                return {
+                                    color: "#052983",
+                                        weight: "4",
+                                        opacity: "0.5"
+                                };
+                                break;
+                        }
+                    },
+
                     filter: (feature) => {
                         return isRuteChecked = checkboxStates.rutes.includes(feature.properties.RuteKoridor);
                     }
