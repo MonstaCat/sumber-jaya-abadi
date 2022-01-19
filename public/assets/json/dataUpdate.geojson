@@ -1,0 +1,1489 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.43762200000003304,
+                    101.42355960000003
+                ]
+            },
+            "properties": {
+                "OBJECTID": 1,
+                "Nama_Halte": "SIDODADI 1",
+                "Koridor": "1A",
+                "Alamat": "Jl. Soekarno - Hatta, Sidomulyo Bar., Kec. Tampan, Kota Pekanbaru, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, Bandar Serai Purna MTQ, Masuk Bandar Sultan Syarif Kasim II",
+                "Rute": "Sudirman–Bandara SSK II",
+                "Kelayakan": "Layak",
+                "X": 0.437622,
+                "Y": 101.4235596,
+                "id": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.43762200000003304,
+                    101.42355960000003
+                ]
+            },
+            "properties": {
+                "OBJECTID": 2,
+                "Nama_Halte": "SIDODADI 2",
+                "Koridor": "1A",
+                "Alamat": "Jl. Soekarno - Hatta, Sidomulyo Bar., Kec. Tampan, Kota Pekanbaru, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, Bandar Serai Purna MTQ, Masuk Bandar Sultan Syarif Kasim II",
+                "Rute": "Sudirman–Bandara SSK II",
+                "Kelayakan": "Layak",
+                "X": 0.437622,
+                "Y": 101.4235596,
+                "id": 2
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.44412600000003977,
+                    101.41963160000006
+                ]
+            },
+            "properties": {
+                "OBJECTID": 3,
+                "Nama_Halte": "HANDAYANI 1",
+                "Koridor": "1A",
+                "Alamat": "Jl. Soekarno - Hatta, Sidomulyo Timur, Kec. Marpoyan Damai, Kota Pekanbaru, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, Bandar Serai Purna MTQ, Masuk Bandar Sultan Syarif Kasim II",
+                "Rute": "Sudirman–Bandara SSK II",
+                "Kelayakan": "Layak",
+                "X": 0.444126,
+                "Y": 101.4196316,
+                "id": 3
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.44412600000003977,
+                    101.41963160000006
+                ]
+            },
+            "properties": {
+                "OBJECTID": 4,
+                "Nama_Halte": "HANDAYANI 2",
+                "Koridor": "1A",
+                "Alamat": "Jl. Soekarno - Hatta, Sidomulyo Timur, Kec. Marpoyan Damai, Kota Pekanbaru, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, Bandar Serai Purna MTQ, Masuk Bandar Sultan Syarif Kasim II",
+                "Rute": "Sudirman–Bandara SSK II",
+                "Kelayakan": "Layak",
+                "X": 0.444126,
+                "Y": 101.4196316,
+                "id": 4
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.4604210000000535,
+                    101.41841050000005
+                ]
+            },
+            "properties": {
+                "OBJECTID": 5,
+                "Nama_Halte": "SMP 21 1",
+                "Koridor": "1A",
+                "Alamat": "Jl. Soekarno - Hatta, Sidomulyo Timur, Kec. Marpoyan Damai, Kota Pekanbaru, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, Bandar Serai Purna MTQ, Masuk Bandar Sultan Syarif Kasim II",
+                "Rute": "Sudirman–Bandara SSK II",
+                "Kelayakan": "Layak",
+                "X": 0.460421,
+                "Y": 101.4184105,
+                "id": 5
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.4604210000000535,
+                    101.41841050000005
+                ]
+            },
+            "properties": {
+                "OBJECTID": 6,
+                "Nama_Halte": "SMP 21 2",
+                "Koridor": "1A",
+                "Alamat": "Jl. Soekarno - Hatta, Sidomulyo Timur, Kec. Marpoyan Damai, Kota Pekanbaru, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, Bandar Serai Purna MTQ, Masuk Bandar Sultan Syarif Kasim II",
+                "Rute": "Sudirman–Bandara SSK II",
+                "Kelayakan": "Layak",
+                "X": 0.460421,
+                "Y": 101.4184105,
+                "id": 6
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.4659350000000586,
+                    101.41834610000006
+                ]
+            },
+            "properties": {
+                "OBJECTID": 7,
+                "Nama_Halte": "PS. PAGI ARENGKA 1",
+                "Koridor": "1A",
+                "Alamat": "Jl. Soekarno - Hatta, Sidomulyo Timur, Kec. Marpoyan Damai, Kota Pekanbaru, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, Bandar Serai Purna MTQ, Masuk Bandar Sultan Syarif Kasim II",
+                "Rute": "Sudirman–Bandara SSK II",
+                "Kelayakan": "Layak",
+                "X": 0.465935,
+                "Y": 101.4183461,
+                "id": 7
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.4659350000000586,
+                    101.41834610000006
+                ]
+            },
+            "properties": {
+                "OBJECTID": 8,
+                "Nama_Halte": "PS. PAGI ARENGKA 2",
+                "Koridor": "1A",
+                "Alamat": "Jl. Soekarno - Hatta, Sidomulyo Timur, Kec. Marpoyan Damai, Kota Pekanbaru, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, Bandar Serai Purna MTQ, Masuk Bandar Sultan Syarif Kasim II",
+                "Rute": "Sudirman–Bandara SSK II",
+                "Kelayakan": "Layak",
+                "X": 0.465935,
+                "Y": 101.4183461,
+                "id": 8
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.48133400000006077,
+                    101.39488950000003
+                ]
+            },
+            "properties": {
+                "OBJECTID": 9,
+                "Nama_Halte": "AGUNG AUTOMALL 1",
+                "Koridor": "1A",
+                "Alamat": "Jl. SM Amin, Simpang Baru, Kec. Tampan, Kota Pekanbaru, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, Bandar Serai Purna MTQ, Masuk Bandar Sultan Syarif Kasim II",
+                "Rute": "Sudirman–Bandara SSK II",
+                "Kelayakan": "Layak",
+                "X": 0.481334,
+                "Y": 101.3948895,
+                "id": 9
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.48133400000006077,
+                    101.39488950000003
+                ]
+            },
+            "properties": {
+                "OBJECTID": 10,
+                "Nama_Halte": "AGUNG AUTOMALL 2",
+                "Koridor": "1A",
+                "Alamat": "Jl. SM Amin, Simpang Baru, Kec. Tampan, Kota Pekanbaru, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, Bandar Serai Purna MTQ, Masuk Bandar Sultan Syarif Kasim II",
+                "Rute": "Sudirman–Bandara SSK II",
+                "Kelayakan": "Layak",
+                "X": 0.481334,
+                "Y": 101.3948895,
+                "id": 10
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.4832220000000689,
+                    101.39561880000008
+                ]
+            },
+            "properties": {
+                "OBJECTID": 11,
+                "Nama_Halte": "SHOWROOM ISUZU 1",
+                "Koridor": "1A",
+                "Alamat": "Jl. SM Amin, Simpang Baru, Kec. Tampan, Kota Pekanbaru, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, Bandar Serai Purna MTQ, Masuk Bandar Sultan Syarif Kasim II",
+                "Rute": "Sudirman–Bandara SSK II",
+                "Kelayakan": "Layak",
+                "X": 0.483222,
+                "Y": 101.3956188,
+                "id": 11
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.4832220000000689,
+                    101.39561880000008
+                ]
+            },
+            "properties": {
+                "OBJECTID": 12,
+                "Nama_Halte": "SHOWROOM ISUZU 2",
+                "Koridor": "1A",
+                "Alamat": "Jl. SM Amin, Simpang Baru, Kec. Tampan, Kota Pekanbaru, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, Bandar Serai Purna MTQ, Masuk Bandar Sultan Syarif Kasim II",
+                "Rute": "Sudirman–Bandara SSK II",
+                "Kelayakan": "Layak",
+                "X": 0.483222,
+                "Y": 101.3956188,
+                "id": 12
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.47486600000002,
+                    101.39491740000005
+                ]
+            },
+            "properties": {
+                "OBJECTID": 13,
+                "Nama_Halte": "KANTOR PU 1",
+                "Koridor": "1A",
+                "Alamat": "Jl. SM Amin, Simpang Baru, Kec. Tampan, Kota Pekanbaru, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, Bandar Serai Purna MTQ, Masuk Bandar Sultan Syarif Kasim II",
+                "Rute": "Sudirman–Bandara SSK II",
+                "Kelayakan": "Kurang",
+                "X": 0.474866,
+                "Y": 101.3949174,
+                "id": 13
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.47486600000002,
+                    101.39491740000005
+                ]
+            },
+            "properties": {
+                "OBJECTID": 14,
+                "Nama_Halte": "KANTOR PU 2",
+                "Koridor": "1A",
+                "Alamat": "Jl. SM Amin, Simpang Baru, Kec. Tampan, Kota Pekanbaru, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, Bandar Serai Purna MTQ, Masuk Bandar Sultan Syarif Kasim II",
+                "Rute": "Sudirman–Bandara SSK II",
+                "Kelayakan": "Kurang",
+                "X": 0.474866,
+                "Y": 101.3949174,
+                "id": 14
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.46535100000005514,
+                    101.38039020000008
+                ]
+            },
+            "properties": {
+                "OBJECTID": 15,
+                "Nama_Halte": "UNRI 1",
+                "Koridor": "1A",
+                "Alamat": "Jl. SM Amin, Simpang Baru, Kec. Tampan, Kota Pekanbaru, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, Bandar Serai Purna MTQ, Masuk Bandar Sultan Syarif Kasim II",
+                "Rute": "Sudirman–Bandara SSK II",
+                "Kelayakan": "Layak",
+                "X": 0.465351,
+                "Y": 101.3803902,
+                "id": 15
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.46535100000005514,
+                    101.38039020000008
+                ]
+            },
+            "properties": {
+                "OBJECTID": 16,
+                "Nama_Halte": "UNRI 2",
+                "Koridor": "1A",
+                "Alamat": "Jl. SM Amin, Simpang Baru, Kec. Tampan, Kota Pekanbaru, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, Bandar Serai Purna MTQ, Masuk Bandar Sultan Syarif Kasim II",
+                "Rute": "Sudirman–Bandara SSK II",
+                "Kelayakan": "Layak",
+                "X": 0.465351,
+                "Y": 101.3803902,
+                "id": 16
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.4333838000000583,
+                    101.39061580000003
+                ]
+            },
+            "properties": {
+                "OBJECTID": 17,
+                "Nama_Halte": "SIDOMULYO 1",
+                "Koridor": "1A",
+                "Alamat": "Jl. Soekarno - Hatta, Sidomulyo Bar., Kec. Tampan, Kota Pekanbaru, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, Bandar Serai Purna MTQ, Masuk Bandar Sultan Syarif Kasim II",
+                "Rute": "Sudirman–Bandara SSK II",
+                "Kelayakan": "Layak",
+                "X": 0.4333838,
+                "Y": 101.3906158,
+                "id": 17
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.4333838000000583,
+                    101.39061580000003
+                ]
+            },
+            "properties": {
+                "OBJECTID": 18,
+                "Nama_Halte": "SIDOMULYO 2",
+                "Koridor": "1A",
+                "Alamat": "Jl. Soekarno - Hatta, Sidomulyo Bar., Kec. Tampan, Kota Pekanbaru, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, Bandar Serai Purna MTQ, Masuk Bandar Sultan Syarif Kasim II",
+                "Rute": "Sudirman–Bandara SSK II",
+                "Kelayakan": "Layak",
+                "X": 0.4333838,
+                "Y": 101.3906158,
+                "id": 18
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5038830000000303,
+                    101.41808110000005
+                ]
+            },
+            "properties": {
+                "OBJECTID": 19,
+                "Nama_Halte": "BULOG",
+                "Koridor": "2",
+                "Alamat": "Jln. Jendral Sudirman, Wonorejo, Marpoyan Damai, Pekanbaru City, Riau",
+                "Tujuan": "Terminal Bandar Raya Payung Sekaki, Jalan Tuanku Tambusai Ujung, Jalan Tuanku Tambusai, Jalan Jenderal Sudirman, Jalan Harapan Raya, Alamayang, Kulim",
+                "Rute": "Terminal BRPS – Kulim",
+                "Kelayakan": "Layak",
+                "X": 0.503883,
+                "Y": 101.4180811,
+                "id": 19
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5009950000000458,
+                    101.35026020000004
+                ]
+            },
+            "properties": {
+                "OBJECTID": 20,
+                "Nama_Halte": "PATUNG KUDA 1",
+                "Koridor": "2",
+                "Alamat": "Jl.Nangka Labuh Baru Timur, Payung Sekaki, Pekanbaru City, Riau",
+                "Tujuan": "Terminal Bandar Raya Payung Sekaki, Jalan Tuanku Tambusai Ujung, Jalan Tuanku Tambusai, Jalan Jenderal Sudirman, Jalan Harapan Raya, Alamayang, Kulim",
+                "Rute": "Terminal BRPS – Kulim",
+                "Kelayakan": "Layak",
+                "X": 0.500995,
+                "Y": 101.3502602,
+                "id": 20
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5009950000000458,
+                    101.35026020000004
+                ]
+            },
+            "properties": {
+                "OBJECTID": 21,
+                "Nama_Halte": "PATUNG KUDA 2",
+                "Koridor": "2",
+                "Alamat": "Jl.Nangka Labuh Baru Timur, Payung Sekaki, Pekanbaru City, Riau",
+                "Tujuan": "Terminal Bandar Raya Payung Sekaki, Jalan Tuanku Tambusai Ujung, Jalan Tuanku Tambusai, Jalan Jenderal Sudirman, Jalan Harapan Raya, Alamayang, Kulim",
+                "Rute": "Terminal BRPS – Kulim",
+                "Kelayakan": "Layak",
+                "X": 0.500995,
+                "Y": 101.3502602,
+                "id": 21
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.49991600000004155,
+                    101.41927690000006
+                ]
+            },
+            "properties": {
+                "OBJECTID": 22,
+                "Nama_Halte": "MAL SKA",
+                "Koridor": "2",
+                "Alamat": "Jl. Soekarno Hatta, Delima, Tampan, Pekanbaru City, Riau",
+                "Tujuan": "Terminal Bandar Raya Payung Sekaki, Jalan Tuanku Tambusai Ujung, Jalan Tuanku Tambusai, Jalan Jenderal Sudirman, Jalan Harapan Raya, Alamayang, Kulim",
+                "Rute": "Terminal BRPS – Kulim",
+                "Kelayakan": "Layak",
+                "X": 0.499916,
+                "Y": 101.4192769,
+                "id": 22
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5220170000000621,
+                    101.44763780000005
+                ]
+            },
+            "properties": {
+                "OBJECTID": 23,
+                "Nama_Halte": "KANTOR POS",
+                "Koridor": "2",
+                "Alamat": "Jln. Sudirman, Sumahilang, Pekanbaru Kota, Pekanbaru City, Riau",
+                "Tujuan": "Terminal Bandar Raya Payung Sekaki, Jalan Tuanku Tambusai Ujung, Jalan Tuanku Tambusai, Jalan Jenderal Sudirman, Jalan Harapan Raya, Alamayang, Kulim",
+                "Rute": "Terminal BRPS – Kulim",
+                "Kelayakan": "Layak",
+                "X": 0.522017,
+                "Y": 101.4476378,
+                "id": 23
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5198760000000675,
+                    101.44727460000007
+                ]
+            },
+            "properties": {
+                "OBJECTID": 24,
+                "Nama_Halte": "DANG MERDU BANK RIAU",
+                "Koridor": "2",
+                "Alamat": "Jln. Sudirman, Tanah Datar, Pekanbaru Kota, Pekanbaru City, Riau",
+                "Tujuan": "Terminal Bandar Raya Payung Sekaki, Jalan Tuanku Tambusai Ujung, Jalan Tuanku Tambusai, Jalan Jenderal Sudirman, Jalan Harapan Raya, Alamayang, Kulim",
+                "Rute": "Terminal BRPS – Kulim",
+                "Kelayakan": "Kurang",
+                "X": 0.519876,
+                "Y": 101.4472746,
+                "id": 24
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5029018000000747,
+                    101.42609120000009
+                ]
+            },
+            "properties": {
+                "OBJECTID": 25,
+                "Nama_Halte": "WARUNG STEAK",
+                "Koridor": "2",
+                "Alamat": "Jl.Nangka Labuh Baru Timur, Payung Sekaki, Pekanbaru City, Riau",
+                "Tujuan": "Terminal Bandar Raya Payung Sekaki, Jalan Tuanku Tambusai Ujung, Jalan Tuanku Tambusai, Jalan Jenderal Sudirman, Jalan Harapan Raya, Alamayang, Kulim",
+                "Rute": "Terminal BRPS – Kulim",
+                "Kelayakan": "Layak",
+                "X": 0.5029018,
+                "Y": 101.4260912,
+                "id": 25
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5026790000000574,
+                    101.42596790000005
+                ]
+            },
+            "properties": {
+                "OBJECTID": 26,
+                "Nama_Halte": "GLOBAL BANGUNAN",
+                "Koridor": "2",
+                "Alamat": "Jl. Nangka, Tengkerang Barat, Marpoyan Damai, Pekanbaru City, Riau",
+                "Tujuan": "Terminal Bandar Raya Payung Sekaki, Jalan Tuanku Tambusai Ujung, Jalan Tuanku Tambusai, Jalan Jenderal Sudirman, Jalan Harapan Raya, Alamayang, Kulim",
+                "Rute": "Terminal BRPS – Kulim",
+                "Kelayakan": "Layak",
+                "X": 0.502679,
+                "Y": 101.4259679,
+                "id": 26
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5091080000000261,
+                    101.44478880000008
+                ]
+            },
+            "properties": {
+                "OBJECTID": 27,
+                "Nama_Halte": "CIK PUAN ",
+                "Koridor": "2",
+                "Alamat": "Jl. Nangka, Jadirejo, Sukajadi, Pekanbaru City, Riau",
+                "Tujuan": "Terminal Bandar Raya Payung Sekaki, Jalan Tuanku Tambusai Ujung, Jalan Tuanku Tambusai, Jalan Jenderal Sudirman, Jalan Harapan Raya, Alamayang, Kulim",
+                "Rute": "Terminal BRPS – Kulim",
+                "Kelayakan": "Layak",
+                "X": 0.509108,
+                "Y": 101.4447888,
+                "id": 27
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5091410000000565,
+                    101.44471370000008
+                ]
+            },
+            "properties": {
+                "OBJECTID": 28,
+                "Nama_Halte": "JPO PELAJAR ",
+                "Koridor": "2",
+                "Alamat": "Jln.Nangka, Kampung Melayu, Sukajadi, Pekanbaru City, Riau",
+                "Tujuan": "Terminal Bandar Raya Payung Sekaki, Jalan Tuanku Tambusai Ujung, Jalan Tuanku Tambusai, Jalan Jenderal Sudirman, Jalan Harapan Raya, Alamayang, Kulim",
+                "Rute": "Terminal BRPS – Kulim",
+                "Kelayakan": "Layak",
+                "X": 0.509141,
+                "Y": 101.4447137,
+                "id": 28
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.4642790000000332,
+                    101.31516220000003
+                ]
+            },
+            "properties": {
+                "OBJECTID": 29,
+                "Nama_Halte": "GIANT PANAM 1",
+                "Koridor": "3",
+                "Alamat": "Jln. HR Soebrantas, Sidomulyo Barat, Tampan, Pekanbaru City, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, U-turn Bandara Sultan Syarif Kasim II, Jalan Arifin Achmad, Jalan Soekarno Hatta, Jalan HR Soebrantas, Simpang Tabek Gadang, Simpang Garuda Sakti, Masuk Kampus UIN",
+                "Rute": "Sudirman – Kampus UIN",
+                "Kelayakan": "Layak",
+                "X": 0.464279,
+                "Y": 101.3151622,
+                "id": 29
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.4642790000000332,
+                    101.31516220000003
+                ]
+            },
+            "properties": {
+                "OBJECTID": 30,
+                "Nama_Halte": "GIANT PANAM 2",
+                "Koridor": "3",
+                "Alamat": "Jln. HR Soebrantas, Sidomulyo Barat, Tampan, Pekanbaru City, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, U-turn Bandara Sultan Syarif Kasim II, Jalan Arifin Achmad, Jalan Soekarno Hatta, Jalan HR Soebrantas, Simpang Tabek Gadang, Simpang Garuda Sakti, Masuk Kampus UIN",
+                "Rute": "Sudirman – Kampus UIN",
+                "Kelayakan": "Layak",
+                "X": 0.464279,
+                "Y": 101.3151622,
+                "id": 30
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.4638930000000414,
+                    101.37208210000006
+                ]
+            },
+            "properties": {
+                "OBJECTID": 31,
+                "Nama_Halte": "PESANTREN BABUSALAM 1",
+                "Koridor": "3",
+                "Alamat": "Jln. HR Soebrantas, Sidomulyo Barat, Tampan, Pekanbaru City, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, U-turn Bandara Sultan Syarif Kasim II, Jalan Arifin Achmad, Jalan Soekarno Hatta, Jalan HR Soebrantas, Simpang Tabek Gadang, Simpang Garuda Sakti, Masuk Kampus UIN",
+                "Rute": "Sudirman – Kampus UIN",
+                "Kelayakan": "Layak",
+                "X": 0.463893,
+                "Y": 101.3720821,
+                "id": 31
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.4638930000000414,
+                    101.37208210000006
+                ]
+            },
+            "properties": {
+                "OBJECTID": 32,
+                "Nama_Halte": "PESANTREN BABUSALAM 2",
+                "Koridor": "3",
+                "Alamat": "Jln. HR Soebrantas, Sidomulyo Barat, Tampan, Pekanbaru City, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, U-turn Bandara Sultan Syarif Kasim II, Jalan Arifin Achmad, Jalan Soekarno Hatta, Jalan HR Soebrantas, Simpang Tabek Gadang, Simpang Garuda Sakti, Masuk Kampus UIN",
+                "Rute": "Sudirman – Kampus UIN",
+                "Kelayakan": "Layak",
+                "X": 0.463893,
+                "Y": 101.3720821,
+                "id": 32
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.4638200000000552,
+                    101.34694320000006
+                ]
+            },
+            "properties": {
+                "OBJECTID": 33,
+                "Nama_Halte": "PERTANIAN",
+                "Koridor": "3",
+                "Alamat": "Jln. HR Soebrantas, Sidomulyo Barat, Tampan, Pekanbaru City, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, U-turn Bandara Sultan Syarif Kasim II, Jalan Arifin Achmad, Jalan Soekarno Hatta, Jalan HR Soebrantas, Simpang Tabek Gadang, Simpang Garuda Sakti, Masuk Kampus UIN",
+                "Rute": "Sudirman – Kampus UIN",
+                "Kelayakan": "Layak",
+                "X": 0.46382,
+                "Y": 101.3469432,
+                "id": 33
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.4785100000000284,
+                    101.38051720000004
+                ]
+            },
+            "properties": {
+                "OBJECTID": 34,
+                "Nama_Halte": "AL-AZHAR 1",
+                "Koridor": "3",
+                "Alamat": "Jln. Arifin Ahmad, Sidomulyo Timur, Marpoyan Damai, Pekanbaru City, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, U-turn Bandara Sultan Syarif Kasim II, Jalan Arifin Achmad, Jalan Soekarno Hatta, Jalan HR Soebrantas, Simpang Tabek Gadang, Simpang Garuda Sakti, Masuk Kampus UIN",
+                "Rute": "Sudirman – Kampus UIN",
+                "Kelayakan": "Layak",
+                "X": 0.47851,
+                "Y": 101.3805172,
+                "id": 34
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.4785100000000284,
+                    101.38051720000004
+                ]
+            },
+            "properties": {
+                "OBJECTID": 35,
+                "Nama_Halte": "AL-AZHAR 2",
+                "Koridor": "3",
+                "Alamat": "Jln. Arifin Ahmad, Sidomulyo Timur, Marpoyan Damai, Pekanbaru City, Riau",
+                "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, U-turn Bandara Sultan Syarif Kasim II, Jalan Arifin Achmad, Jalan Soekarno Hatta, Jalan HR Soebrantas, Simpang Tabek Gadang, Simpang Garuda Sakti, Masuk Kampus UIN",
+                "Rute": "Sudirman – Kampus UIN",
+                "Kelayakan": "Layak",
+                "X": 0.47851,
+                "Y": 101.3805172,
+                "id": 35
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.48273082100007514,
+                    101.52127365800004
+                ]
+            },
+            "properties": {
+                "OBJECTID": 36,
+                "Nama_Halte": "PASAR TANGOR",
+                "Koridor": "4A",
+                "Alamat": "Jln. Lintas Sumatera, Pekanbaru Kota, Pekanbaru City, Riau",
+                "Tujuan": "Ramayana , Jl. Jend. Sudirman, Jl. Hang Tuah, Pasar Tangor PP",
+                "Rute": "Ramayana – Pasar Tangor",
+                "Kelayakan": "Layak",
+                "X": 0.482730820579063,
+                "Y": 101.521273657821,
+                "id": 36
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.4893610860000308,
+                    101.51627484600004
+                ]
+            },
+            "properties": {
+                "OBJECTID": 37,
+                "Nama_Halte": "SP. JENGKOL 1",
+                "Koridor": "4A",
+                "Alamat": "Jln. Lintas Sumatera, Pekanbaru Kota, Pekanbaru City, Riau",
+                "Tujuan": "Ramayana , Jl. Jend. Sudirman, Jl. Hang Tuah, Pasar Tangor PP",
+                "Rute": "Ramayana – Pasar Tangor",
+                "Kelayakan": "Layak",
+                "X": 0.489361085531489,
+                "Y": 101.516274845658,
+                "id": 37
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.4893610860000308,
+                    101.51627484600004
+                ]
+            },
+            "properties": {
+                "OBJECTID": 38,
+                "Nama_Halte": "SP. JENGKOL 2",
+                "Koridor": "4A",
+                "Alamat": "Jln. Lintas Sumatera, Pekanbaru Kota, Pekanbaru City, Riau",
+                "Tujuan": "Ramayana , Jl. Jend. Sudirman, Jl. Hang Tuah, Pasar Tangor PP",
+                "Rute": "Ramayana – Pasar Tangor",
+                "Kelayakan": "Layak",
+                "X": 0.489361085531489,
+                "Y": 101.516274845658,
+                "id": 38
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.4981969200000549,
+                    101.51097428800006
+                ]
+            },
+            "properties": {
+                "OBJECTID": 39,
+                "Nama_Halte": "PRIMADONA 1",
+                "Koridor": "4A",
+                "Alamat": "Jln. Lintas Timur, Pekanbaru Kota, Pekanbaru City, Riau",
+                "Tujuan": "Ramayana , Jl. Jend. Sudirman, Jl. Hang Tuah, Pasar Tangor PP",
+                "Rute": "Ramayana – Pasar Tangor",
+                "Kelayakan": "Layak",
+                "X": 0.49819691991847,
+                "Y": 101.510974287576,
+                "id": 39
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.4981969200000549,
+                    101.51097428800006
+                ]
+            },
+            "properties": {
+                "OBJECTID": 40,
+                "Nama_Halte": "PRIMADONA 2",
+                "Koridor": "4A",
+                "Alamat": "Jln. Lintas Timur, Pekanbaru Kota, Pekanbaru City, Riau",
+                "Tujuan": "Ramayana , Jl. Jend. Sudirman, Jl. Hang Tuah, Pasar Tangor PP",
+                "Rute": "Ramayana – Pasar Tangor",
+                "Kelayakan": "Layak",
+                "X": 0.49819691991847,
+                "Y": 101.510974287576,
+                "id": 40
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5063768950000735,
+                    101.50843563600006
+                ]
+            },
+            "properties": {
+                "OBJECTID": 41,
+                "Nama_Halte": "SP BADAK 1",
+                "Koridor": "4A",
+                "Alamat": "Jl. Hangtuah Ujung, Sail, Kec. Tenayan Raya, Kota Pekanbaru, Riau",
+                "Tujuan": "Ramayana , Jl. Jend. Sudirman, Jl. Hang Tuah, Pasar Tangor PP",
+                "Rute": "Ramayana – Pasar Tangor",
+                "Kelayakan": "Layak",
+                "X": 0.506376895205004,
+                "Y": 101.508435635561,
+                "id": 41
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5063768950000735,
+                    101.50843563600006
+                ]
+            },
+            "properties": {
+                "OBJECTID": 42,
+                "Nama_Halte": "SP BADAK 2",
+                "Koridor": "4A",
+                "Alamat": "Jl. Hangtuah Ujung, Sail, Kec. Tenayan Raya, Kota Pekanbaru, Riau",
+                "Tujuan": "Ramayana , Jl. Jend. Sudirman, Jl. Hang Tuah, Pasar Tangor PP",
+                "Rute": "Ramayana – Pasar Tangor",
+                "Kelayakan": "Layak",
+                "X": 0.506376895205004,
+                "Y": 101.508435635561,
+                "id": 42
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.505554600000039,
+                    101.50005680000004
+                ]
+            },
+            "properties": {
+                "OBJECTID": 43,
+                "Nama_Halte": "ANGGUN 1",
+                "Koridor": "4A",
+                "Alamat": "Jl. Hangtuah Ujung, Sail, Kec. Tenayan Raya, Kota Pekanbaru, Riau",
+                "Tujuan": "Ramayana , Jl. Jend. Sudirman, Jl. Hang Tuah, Pasar Tangor PP",
+                "Rute": "Ramayana – Pasar Tangor",
+                "Kelayakan": "Layak",
+                "X": 0.5055546,
+                "Y": 101.5000568,
+                "id": 43
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.505554600000039,
+                    101.50005680000004
+                ]
+            },
+            "properties": {
+                "OBJECTID": 44,
+                "Nama_Halte": "ANGGUN 2",
+                "Koridor": "4A",
+                "Alamat": "Jl. Hangtuah Ujung, Sail, Kec. Tenayan Raya, Kota Pekanbaru, Riau",
+                "Tujuan": "Ramayana , Jl. Jend. Sudirman, Jl. Hang Tuah, Pasar Tangor PP",
+                "Rute": "Ramayana – Pasar Tangor",
+                "Kelayakan": "Layak",
+                "X": 0.5055546,
+                "Y": 101.5000568,
+                "id": 44
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5243063930000744,
+                    101.43468075200008
+                ]
+            },
+            "properties": {
+                "OBJECTID": 45,
+                "Nama_Halte": "SIALANG 1",
+                "Koridor": "4A",
+                "Alamat": "Jl. Melur-Pekan Baru, Harjosari, Kec. Sukajadi, Kota Pekanbaru, Riau",
+                "Tujuan": "Ramayana , Jl. Jend. Sudirman, Jl. Hang Tuah, Pasar Tangor PP",
+                "Rute": "Ramayana – Pasar Tangor",
+                "Kelayakan": "Layak",
+                "X": 0.524306392658822,
+                "Y": 101.434680752187,
+                "id": 45
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5243063930000744,
+                    101.43468075200008
+                ]
+            },
+            "properties": {
+                "OBJECTID": 46,
+                "Nama_Halte": "SIALANG 2",
+                "Koridor": "4A",
+                "Alamat": "Jl. Melur-Pekan Baru, Harjosari, Kec. Sukajadi, Kota Pekanbaru, Riau",
+                "Tujuan": "Ramayana , Jl. Jend. Sudirman, Jl. Hang Tuah, Pasar Tangor PP",
+                "Rute": "Ramayana – Pasar Tangor",
+                "Kelayakan": "Layak",
+                "X": 0.524306392658822,
+                "Y": 101.434680752187,
+                "id": 46
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5005421250000381,
+                    101.41399775800005
+                ]
+            },
+            "properties": {
+                "OBJECTID": 47,
+                "Nama_Halte": "SUMATERA 1",
+                "Koridor": "4A",
+                "Alamat": "Jl. Hangtuah Ujung, Rejosari, Tenayan Raya, Kota Pekanbaru, Riau",
+                "Tujuan": "Ramayana , Jl. Jend. Sudirman, Jl. Hang Tuah, Pasar Tangor PP",
+                "Rute": "Ramayana – Pasar Tangor",
+                "Kelayakan": "Layak",
+                "X": 0.500542124691534,
+                "Y": 101.413997758223,
+                "id": 47
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5005421250000381,
+                    101.41399775800005
+                ]
+            },
+            "properties": {
+                "OBJECTID": 48,
+                "Nama_Halte": "SUMATERA 2",
+                "Koridor": "4A",
+                "Alamat": "Jl. Hangtuah Ujung, Rejosari, Tenayan Raya, Kota Pekanbaru, Riau",
+                "Tujuan": "Ramayana , Jl. Jend. Sudirman, Jl. Hang Tuah, Pasar Tangor PP",
+                "Rute": "Ramayana – Pasar Tangor",
+                "Kelayakan": "Layak",
+                "X": 0.500542124691534,
+                "Y": 101.413997758223,
+                "id": 48
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5236340000000723,
+                    101.47253100000006
+                ]
+            },
+            "properties": {
+                "OBJECTID": 49,
+                "Nama_Halte": "ARAS 1",
+                "Koridor": "4A",
+                "Alamat": "Jl. Hangtuah, Rejosari, Tenayan Raya, Riau",
+                "Tujuan": "Ramayana , Jl. Jend. Sudirman, Jl. Hang Tuah, Pasar Tangor PP",
+                "Rute": "Ramayana – Pasar Tangor",
+                "Kelayakan": "Layak",
+                "X": 0.523634,
+                "Y": 101.472531,
+                "id": 49
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5236340000000723,
+                    101.47253100000006
+                ]
+            },
+            "properties": {
+                "OBJECTID": 50,
+                "Nama_Halte": "ARAS 2",
+                "Koridor": "4A",
+                "Alamat": "Jl. Hangtuah, Rejosari, Tenayan Raya, Riau",
+                "Tujuan": "Ramayana , Jl. Jend. Sudirman, Jl. Hang Tuah, Pasar Tangor PP",
+                "Rute": "Ramayana – Pasar Tangor",
+                "Kelayakan": "Layak",
+                "X": 0.523634,
+                "Y": 101.472531,
+                "id": 50
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5252110000000698,
+                    101.41601610000004
+                ]
+            },
+            "properties": {
+                "OBJECTID": 51,
+                "Nama_Halte": "RSUD ARIFIN AHMAD",
+                "Koridor": "4A",
+                "Alamat": "Jln. Hangtuah Ujung, Sumahilang, Pekanbaru Kota, Pekanbaru City, Riau",
+                "Tujuan": "Ramayana , Jl. Jend. Sudirman, Jl. Hang Tuah, Pasar Tangor PP",
+                "Rute": "Ramayana – Pasar Tangor",
+                "Kelayakan": "Layak",
+                "X": 0.525211,
+                "Y": 101.4160161,
+                "id": 51
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5153250000000753,
+                    101.45221750000007
+                ]
+            },
+            "properties": {
+                "OBJECTID": 52,
+                "Nama_Halte": "HUTAN KOTA",
+                "Koridor": "5",
+                "Alamat": "Jln. Diponegoro, Suka Mulia, Sail, Pekanbaru City, Riau",
+                "Tujuan": "Pelabuhan Sungai Duku, Jalan Tanjung Datuk, Jalan Dr Sutomo, SMPN 5, Jalan Hangtuah, Jalan Sutomo, Jalan Letjen S Parman, Jalan Pattimura, U-turn MAN 2 Model, Jalan Jenderal Sudirman",
+                "Rute": " Pelabuhan Sungai Duku – Sudirman",
+                "Kelayakan": "Layak",
+                "X": 0.515325,
+                "Y": 101.4522175,
+                "id": 52
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5111370000000761,
+                    101.45248340000006
+                ]
+            },
+            "properties": {
+                "OBJECTID": 53,
+                "Nama_Halte": "MAN 2 MODEL",
+                "Koridor": "5",
+                "Alamat": "Jl. Diponegoro No.55, Cinta Raja, Kec. Sail, Kota Pekanbaru, Riau 28131",
+                "Tujuan": "Pelabuhan Sungai Duku, Jalan Tanjung Datuk, Jalan Dr Sutomo, SMPN 5, Jalan Hangtuah, Jalan Sutomo, Jalan Letjen S Parman, Jalan Pattimura, U-turn MAN 2 Model, Jalan Jenderal Sudirman",
+                "Rute": " Pelabuhan Sungai Duku – Sudirman",
+                "Kelayakan": "Layak",
+                "X": 0.511137,
+                "Y": 101.4524834,
+                "id": 53
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5107130000000666,
+                    101.45531170000004
+                ]
+            },
+            "properties": {
+                "OBJECTID": 54,
+                "Nama_Halte": "UNRI GOBAH",
+                "Koridor": "5",
+                "Alamat": "Jl. Diponegoro ,Cinta Raja, Sail, Pekanbaru City, Riau",
+                "Tujuan": "Pelabuhan Sungai Duku, Jalan Tanjung Datuk, Jalan Dr Sutomo, SMPN 5, Jalan Hangtuah, Jalan Sutomo, Jalan Letjen S Parman, Jalan Pattimura, U-turn MAN 2 Model, Jalan Jenderal Sudirman",
+                "Rute": " Pelabuhan Sungai Duku – Sudirman",
+                "Kelayakan": "Layak",
+                "X": 0.510713,
+                "Y": 101.4553117,
+                "id": 54
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5105720000000247,
+                    101.45551740000008
+                ]
+            },
+            "properties": {
+                "OBJECTID": 55,
+                "Nama_Halte": "SMK 2",
+                "Koridor": "5",
+                "Alamat": "Jl. Diponegoro,Cinta Raja, Sail, Pekanbaru City, Riau",
+                "Tujuan": "Pelabuhan Sungai Duku, Jalan Tanjung Datuk, Jalan Dr Sutomo, SMPN 5, Jalan Hangtuah, Jalan Sutomo, Jalan Letjen S Parman, Jalan Pattimura, U-turn MAN 2 Model, Jalan Jenderal Sudirman",
+                "Rute": " Pelabuhan Sungai Duku – Sudirman",
+                "Kelayakan": "Layak",
+                "X": 0.510572,
+                "Y": 101.4555174,
+                "id": 55
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.4234230000000707,
+                    101.46383570000006
+                ]
+            },
+            "properties": {
+                "OBJECTID": 56,
+                "Nama_Halte": "PANDAU RAYA",
+                "Koridor": "6",
+                "Alamat": "Jl. Kopkar Raya, Pandau Jaya, Kec. Siak Hulu, Kabupaten Kampar, Riau 28284",
+                "Tujuan": "Pandau Permai, Jalan Raya Pasir Putih, Jalan Kaharuddin Nasution, Jalan Soekarno Hatta, Pasar Pagi Arengka, Jalan HR Soebrantas, Simpang Tabek Gadang, Jalan SM Amin, Jalan Tuanku Tambusai Ujung",
+                "Rute": null,
+                "Kelayakan": "Layak",
+                "X": 0.423423,
+                "Y": 101.4638357,
+                "id": 56
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.42741200000006074,
+                    101.46097430000003
+                ]
+            },
+            "properties": {
+                "OBJECTID": 57,
+                "Nama_Halte": "KANTOR DESA 1",
+                "Koridor": "6",
+                "Alamat": "Jl. Raya Pandau Permai, Pandau Jaya, Kec. Siak Hulu, Kabupaten Kampar, Riau",
+                "Tujuan": "Pandau Permai, Jalan Raya Pasir Putih, Jalan Kaharuddin Nasution, Jalan Soekarno Hatta, Pasar Pagi Arengka, Jalan HR Soebrantas, Simpang Tabek Gadang, Jalan SM Amin, Jalan Tuanku Tambusai Ujung",
+                "Rute": null,
+                "Kelayakan": "Layak",
+                "X": 0.427412,
+                "Y": 101.4609743,
+                "id": 57
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.42741200000006074,
+                    101.46097430000003
+                ]
+            },
+            "properties": {
+                "OBJECTID": 58,
+                "Nama_Halte": "KANTOR DESA 2",
+                "Koridor": "6",
+                "Alamat": "Jl. Raya Pandau Permai, Pandau Jaya, Kec. Siak Hulu, Kabupaten Kampar, Riau",
+                "Tujuan": "Pandau Permai, Jalan Raya Pasir Putih, Jalan Kaharuddin Nasution, Jalan Soekarno Hatta, Pasar Pagi Arengka, Jalan HR Soebrantas, Simpang Tabek Gadang, Jalan SM Amin, Jalan Tuanku Tambusai Ujung",
+                "Rute": null,
+                "Kelayakan": "Layak",
+                "X": 0.427412,
+                "Y": 101.4609743,
+                "id": 58
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.43299300000006724,
+                    101.46279070000008
+                ]
+            },
+            "properties": {
+                "OBJECTID": 59,
+                "Nama_Halte": "SPBU PANDAU 1",
+                "Koridor": "6",
+                "Alamat": "Jl. Raya Pasir Putih, Pandau Jaya, Kec. Siak Hulu, Kabupaten Kampar, Riau",
+                "Tujuan": "Pandau Permai, Jalan Raya Pasir Putih, Jalan Kaharuddin Nasution, Jalan Soekarno Hatta, Pasar Pagi Arengka, Jalan HR Soebrantas, Simpang Tabek Gadang, Jalan SM Amin, Jalan Tuanku Tambusai Ujung",
+                "Rute": null,
+                "Kelayakan": "Layak",
+                "X": 0.432993,
+                "Y": 101.4627907,
+                "id": 59
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5206490000000485,
+                    101.44425460000008
+                ]
+            },
+            "properties": {
+                "OBJECTID": 60,
+                "Nama_Halte": "BANK MANDIRI 1",
+                "Koridor": "8A",
+                "Alamat": "Jln. A. Yani Kota Baru, Pekanbaru Kota, Pekanbaru City, Riau",
+                "Tujuan": "Restoran, Rumah Sakit, Pasar, RTH, Kantor Polisi, Pusat Perbelanjaan, Kediaman Walikota, Pusat Olahraga, Hotel Universitas",
+                "Rute": "Wali Kota Lama – Unilak",
+                "Kelayakan": "Layak",
+                "X": 0.520649,
+                "Y": 101.4442546,
+                "id": 60
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5206490000000485,
+                    101.44425460000008
+                ]
+            },
+            "properties": {
+                "OBJECTID": 61,
+                "Nama_Halte": "BANK MANDIRI 2",
+                "Koridor": "8A",
+                "Alamat": "Jln. A. Yani Kota Baru, Pekanbaru Kota, Pekanbaru City, Riau",
+                "Tujuan": "Restoran, Rumah Sakit, Pasar, RTH, Kantor Polisi, Pusat Perbelanjaan, Kediaman Walikota, Pusat Olahraga, Hotel Universitas",
+                "Rute": "Wali Kota Lama – Unilak",
+                "Kelayakan": "Layak",
+                "X": 0.520649,
+                "Y": 101.4442546,
+                "id": 61
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5262950000000615,
+                    101.44232210000007
+                ]
+            },
+            "properties": {
+                "OBJECTID": 62,
+                "Nama_Halte": "BANK RIAU KEPRI 1",
+                "Koridor": "8A",
+                "Alamat": "Jln. A. Yani Kota Baru, Pekanbaru Kota, Pekanbaru City, Riau",
+                "Tujuan": "Restoran, Rumah Sakit, Pasar, RTH, Kantor Polisi, Pusat Perbelanjaan, Kediaman Walikota, Pusat Olahraga, Hotel Universitas",
+                "Rute": "Wali Kota Lama – Unilak",
+                "Kelayakan": "Layak",
+                "X": 0.526295,
+                "Y": 101.4423221,
+                "id": 62
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5262950000000615,
+                    101.44232210000007
+                ]
+            },
+            "properties": {
+                "OBJECTID": 63,
+                "Nama_Halte": "BANK RIAU KEPRI 2",
+                "Koridor": "8A",
+                "Alamat": "Jln. A. Yani Kota Baru, Pekanbaru Kota, Pekanbaru City, Riau",
+                "Tujuan": "Restoran, Rumah Sakit, Pasar, RTH, Kantor Polisi, Pusat Perbelanjaan, Kediaman Walikota, Pusat Olahraga, Hotel Universitas",
+                "Rute": "Wali Kota Lama – Unilak",
+                "Kelayakan": "Layak",
+                "X": 0.526295,
+                "Y": 101.4423221,
+                "id": 63
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.527238000000068,
+                    101.40744310000008
+                ]
+            },
+            "properties": {
+                "OBJECTID": 64,
+                "Nama_Halte": "SANTA MARIA 1",
+                "Koridor": "8A",
+                "Alamat": "Jln. A. Yani Kota Baru, Pekanbaru Kota, Pekanbaru City, Riau",
+                "Tujuan": "Restoran, Rumah Sakit, Pasar, RTH, Kantor Polisi, Pusat Perbelanjaan, Kediaman Walikota, Pusat Olahraga, Hotel Universitas",
+                "Rute": "Wali Kota Lama – Unilak",
+                "Kelayakan": "Layak",
+                "X": 0.527238,
+                "Y": 101.4074431,
+                "id": 64
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.527238000000068,
+                    101.40744310000008
+                ]
+            },
+            "properties": {
+                "OBJECTID": 65,
+                "Nama_Halte": "SANTA MARIA 2",
+                "Koridor": "8A",
+                "Alamat": "Jln. A. Yani Kota Baru, Pekanbaru Kota, Pekanbaru City, Riau",
+                "Tujuan": "Restoran, Rumah Sakit, Pasar, RTH, Kantor Polisi, Pusat Perbelanjaan, Kediaman Walikota, Pusat Olahraga, Hotel Universitas",
+                "Rute": "Wali Kota Lama – Unilak",
+                "Kelayakan": "Layak",
+                "X": 0.527238,
+                "Y": 101.4074431,
+                "id": 65
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.5982860000000301,
+                    101.41863880000005
+                ]
+            },
+            "properties": {
+                "OBJECTID": 66,
+                "Nama_Halte": "MAKAM",
+                "Koridor": "8B",
+                "Alamat": "Jln. Kartika Sari, Umban Sari, Rumbai, Pekanbaru City, Riau",
+                "Tujuan": "Hotel, Kantor, Pusat Perbelanjaan, Universitas, Sekolah, Pelabuhan Sungai Duku, Terminal BRPS, Taman Wisata",
+                "Rute": "Unilak – Palas Raya",
+                "Kelayakan": "Tidak",
+                "X": 0.598286,
+                "Y": 101.4186388,
+                "id": 66
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": null,
+            "properties": {
+                "OBJECTID": 67,
+                "Nama_Halte": "STADION KH. NASUTION 1",
+                "Koridor": "8B",
+                "Alamat": "Jl. Yos Sudarso, Umban Sari, Kec. Rumbai, Kota Pekanbaru, Riau",
+                "Tujuan": "Universitas Lancang Kuning (Unilak), Jalan Yos Sudarso, Simpang Bingung, Muara Fajar, Kantor Camat Rumbai, Palas",
+                "Rute": "Unilak – Palas Raya",
+                "Kelayakan": "Layak",
+                "X": null,
+                "Y": 101.4292024,
+                "id": 67
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": null,
+            "properties": {
+                "OBJECTID": 68,
+                "Nama_Halte": "STADION KH. NASUTION 2",
+                "Koridor": "8B",
+                "Alamat": "Jl. Yos Sudarso, Umban Sari, Kec. Rumbai, Kota Pekanbaru, Riau",
+                "Tujuan": "Universitas Lancang Kuning (Unilak), Jalan Yos Sudarso, Simpang Bingung, Muara Fajar, Kantor Camat Rumbai, Palas",
+                "Rute": "Unilak – Palas Raya",
+                "Kelayakan": "Layak",
+                "X": null,
+                "Y": 102.4292024,
+                "id": 68
+            }
+        }
+    ]
+}
