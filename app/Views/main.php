@@ -732,52 +732,43 @@
 
             <div class="section-title">
                 <h2>Frequently Asked Questions</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p>Pertanyaan yang Sering Diajukan (FAQ) ini telah dikembangkan untuk membantu pelanggan dalam menemukan jawaban umum atas pertanyaan penting mengenai transportasi Trans Metro Pekanbaru.</p>
             </div>
 
             <div class="faq-list">
                 <ul>
                     <li data-aos="fade-up" data-aos="fade-up" data-aos-delay="100">
-                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Kapan dan di mana saya dapat meninjau lokasi halte bus anak saya dan informasi penjemputan/pengantaran? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                         <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
                             <p>
-                                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                            Informasi halte bus tersedia untuk pengendara bus yang memenuhi syarat, 24/7, melalui situs web Trans Metro Pekanbaru. Informasi rute akan diperbarui saat tersedia, periksa kembali secara berkala untuk perubahan.
                             </p>
                         </div>
                     </li>
 
                     <li data-aos="fade-up" data-aos-delay="200">
-                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Mengapa ada lebih sedikit perhentian individu dan lebih banyak “pemberhentian kelompok” pada rute bus? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                         <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                             <p>
-                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                            Agar efisien dengan sumber daya publik yang terbatas, distrik sekolah di seluruh negara bagian harus mengurangi jumlah perhentian bus individu, dari tepi ke tepi, sebagian besar karena alasan ekonomi.
                             </p>
                         </div>
                     </li>
 
                     <li data-aos="fade-up" data-aos-delay="300">
-                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Apakah ada aturan tentang jarak maksimum yang harus ditempuh seorang siswa untuk sampai ke halte bus yang telah ditentukan? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                         <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                             <p>
-                                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                            Tidak ada aturan yang menentukan seberapa jauh seorang anak dapat berjalan kaki ke halte bus.
                             </p>
                         </div>
                     </li>
 
                     <li data-aos="fade-up" data-aos-delay="400">
-                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Bagaimana dengan keselamatan anak saya menuju dan dari halte bus? Tidak ada trotoar tempat kami tinggal dan halte bus berada di luar “garis pandang” dari rumah kami. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                         <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
                             <p>
-                                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
-                            </p>
-                        </div>
-                    </li>
-
-                    <li data-aos="fade-up" data-aos-delay="500">
-                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                        <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-                            <p>
-                                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                            Merupakan tanggung jawab orang tua/wali yang sah untuk memastikan bahwa seorang anak sampai dan dari halte bus dengan selamat. Distrik sekolah menyediakan transportasi sebagai layanan tidak wajib dan menetapkan penempatan halte bus sesuai dengan persyaratan undang-undang.
                             </p>
                         </div>
                     </li>
@@ -824,7 +815,7 @@
 
             </div>
 
-            <div class="row">
+            <!-- <div class="row">
 
                 <div class="col-lg-6 ">
                     <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
@@ -855,7 +846,7 @@
                     </form>
                 </div>
 
-            </div>
+            </div> -->
 
         </div>
     </section><!-- End Contact Section -->
