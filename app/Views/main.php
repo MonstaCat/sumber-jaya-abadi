@@ -281,142 +281,143 @@
             <p>Peta sebaran Halte Bus Trans Metro Pekanbaru.</p>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-2">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="1A" id="koridor1a">
-                        <label class="form-check-label" for="koridor1a">
-                            Koridor 1A
-                        </label>
+            <div class="inputs" id="koridors">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="form-check">
+                            <input class="koridor" type="checkbox" value="1A" id="koridor1a" checked="true">
+                            <label class="form-check-label" for="koridor1a">
+                                Koridor 1A
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="form-check">
+                            <input class="koridor" type="checkbox" value="01" id="kodridor01" checked="true">
+                            <label class="form-check-label" for="kodridor01">
+                                Koridor 01
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="form-check">
+                            <input class="koridor" type="checkbox" value="02" id="kodridor02" checked="true">
+                            <label class="form-check-label" for="kodridor02">
+                                Koridor 02
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="form-check">
+                            <input class="koridor" type="checkbox" value="03" id="kodridor03" checked="true">
+                            <label class="form-check-label" for="kodridor03">
+                                Koridor 03
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="form-check">
+                            <input class="koridor" type="checkbox" value="4A" id="kodridor4a" checked="true">
+                            <label class="form-check-label" for="kodridor4a">
+                                Koridor 4A
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="form-check">
+                            <input class="koridor" type="checkbox" value="4b" id="kodridor4b" checked="true">
+                            <label class="form-check-label" for="kodridor4b">
+                                Koridor 4B
+                            </label>
+                        </div>
                     </div>
                 </div>
-                <div class="col-2">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="01" id="kodridor01">
-                        <label class="form-check-label" for="kodridor01">
-                            Koridor 01
-                        </label>
+                <div class="row">
+                    <div class="col-2">
+                        <div class="form-check">
+                            <input class="koridor" type="checkbox" value="4c" id="kodridor4c" checked="true">
+                            <label class="form-check-label" for="kodridor4c">
+                                Koridor 4C
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="form-check">
+                            <input class="koridor" type="checkbox" value="05" id="kodridor05" checked="true">
+                            <label class="form-check-label" for="kodridor05">
+                                Koridor 05
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="form-check">
+                            <input class="koridor" type="checkbox" value="06" id="kodridor06" checked="true">
+                            <label class="form-check-label" for="kodridor06">
+                                Koridor 06
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="form-check">
+                            <input class="koridor" type="checkbox" value="7a" id="kodridor7a" checked="true">
+                            <label class="form-check-label" for="kodridor7a">
+                                Koridor 7A
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="form-check">
+                            <input class="koridor" type="checkbox" value="7b" id="kodridor7b" checked="true">
+                            <label class="form-check-label" for="kodridor7b">
+                                Koridor 7B
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="form-check">
+                            <input class="koridor" type="checkbox" value="8a" id="kodridor8a" checked="true">
+                            <label class="form-check-label" for="kodridor8a">
+                                Koridor 8A
+                            </label>
+                        </div>
                     </div>
                 </div>
-                <div class="col-2">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="02" id="kodridor02">
-                        <label class="form-check-label" for="kodridor02">
-                            Koridor 02
-                        </label>
+                <div class="row">
+                    <div class="col-2">
+                        <div class="form-check">
+                            <input class="koridor" type="checkbox" value="8b" id="kodridor8b" checked="true">
+                            <label class="form-check-label" for="kodridor8b">
+                                Koridor 8B
+                            </label>
+                        </div>
                     </div>
-                </div>
-                <div class="col-2">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="03" id="kodridor03">
-                        <label class="form-check-label" for="kodridor03">
-                            Koridor 03
-                        </label>
+                    <div class="col-2">
+                        <div class="form-check">
+                            <input class="koridor" type="checkbox" value="09" id="kodridor09" checked="true">
+                            <label class="form-check-label" for="kodridor09">
+                                Koridor 09
+                            </label>
+                        </div>
                     </div>
-                </div>
-                <div class="col-2">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="4a" id="kodridor4a">
-                        <label class="form-check-label" for="kodridor4a">
-                            Koridor 4A
-                        </label>
+                    <div class="col-2">
+                        <div class="form-check">
+                            <input class="koridor" type="checkbox" value="10" id="kodridor10" checked="true">
+                            <label class="form-check-label" for="kodridor10">
+                                Koridor 10
+                            </label>
+                        </div>
                     </div>
-                </div>
-                <div class="col-2">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="4b" id="kodridor4b">
-                        <label class="form-check-label" for="kodridor4b">
-                            Koridor 4B
-                        </label>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-2">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="4c" id="kodridor4c">
-                        <label class="form-check-label" for="kodridor4c">
-                            Koridor 4C
-                        </label>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="05" id="kodridor05">
-                        <label class="form-check-label" for="kodridor05">
-                            Koridor 05
-                        </label>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="06" id="kodridor06">
-                        <label class="form-check-label" for="kodridor06">
-                            Koridor 06
-                        </label>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="7a" id="kodridor7a">
-                        <label class="form-check-label" for="kodridor7a">
-                            Koridor 7A
-                        </label>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="7b" id="kodridor7b">
-                        <label class="form-check-label" for="kodridor7b">
-                            Koridor 7B
-                        </label>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="8a" id="kodridor8a">
-                        <label class="form-check-label" for="kodridor8a">
-                            Koridor 8A
-                        </label>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-2">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="8b" id="kodridor8b">
-                        <label class="form-check-label" for="kodridor8b">
-                            Koridor 8B
-                        </label>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="09" id="kodridor09">
-                        <label class="form-check-label" for="kodridor09">
-                            Koridor 09
-                        </label>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="10" id="kodridor10">
-                        <label class="form-check-label" for="kodridor10">
-                            Koridor 10
-                        </label>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="haltetransit" id="haltetransit">
-                        <label class="form-check-label" for="haltetransit">
-                            Halte Transit
-                        </label>
+                    <div class="col-2">
+                        <div class="form-check">
+                            <input class="koridor" type="checkbox" value="haltetransit" id="haltetransit" checked="true">
+                            <label class="form-check-label" for="haltetransit">
+                                Halte Transit
+                            </label>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
 
         <div class="container">
             <div id="map"></div>
@@ -425,6 +426,8 @@
             <script src="<?= base_url('assets/json/data-halte.js') ?>" type="text/javascript"></script>
             <!-- MAP SCRIPT -->
             <script>
+                let checkboxStates;
+
                 // Open Street Map Integration
                 var map = L.map('map').setView([0.510394, 101.448786], 12);
 
@@ -445,17 +448,17 @@
                     popupAnchor: [0, -28]
                 });
 
-                // function onEachFeature(feature, layer) {
-                //     var popupContent = layer.bindPopup('<h1>' + feature.properties.Nama_Halte + '</h1><p>name: ' + feature.properties.Koridor + '</p>');
+                function onEachFeature(feature, layer) {
+                    var popupContent = layer.bindPopup('<h1>' + feature.properties.Nama_Halte + '</h1><p>name: ' + feature.properties.Koridor + '</p>');
 
-                //     if (feature.properties && feature.properties.popupContent) {
-                //         popupContent += feature.properties.popupContent;
-                //     }
+                    if (feature.properties && feature.properties.popupContent) {
+                        popupContent += feature.properties.popupContent;
+                    }
 
-                //     layer.bindPopup(popupContent);
-                // }
+                    layer.bindPopup(popupContent);
+                }
 
-                var coorsLayer = L.geoJSON(halte_bus, {
+                var coorsLayer = L.geoJSON(null, {
 
                     pointToLayer: function(feature, latlng) {
                         return L.marker(latlng, {
@@ -472,9 +475,45 @@
                             '</p><p><b>Rute:</b> <br>' + feature.properties.Rute + '</p>' +
                             '</p><p><b>Kelayakan:</b> <br>' + feature.properties.Kelayakan + '</p>'
                         );
+                    },
+
+                    filter: (feature) => {
+                        return isKoridorChecked = checkboxStates.koridors.includes(feature.properties.Koridor);
+                        // const isEventTypeChecked = checkboxStates.eventTypes.includes(feature.properties.eventType)
+                        // return isYearChecked && isEventTypeChecked 
                     }
 
                 }).addTo(map);
+
+                function updateCheckboxStates() {
+                    checkboxStates = {
+                        koridors: [],
+                        // eventTypes: []
+                    }
+
+                    for (let input of document.querySelectorAll('input')) {
+                        if (input.checked) {
+                            switch (input.className) {
+                                case 'koridor':
+                                    checkboxStates.koridors.push(input.value);
+                                    break
+                            }
+                        }
+                    }
+                }
+
+                for (let input of document.querySelectorAll('input')) {
+                    //Listen to 'change' event of all inputs
+                    input.onchange = (e) => {
+                        coorsLayer.clearLayers()
+                        updateCheckboxStates()
+                        coorsLayer.addData(halte_bus)
+                    }
+                }
+
+                // Init function
+                updateCheckboxStates();
+                coorsLayer.addData(halte_bus);
             </script>
         </div>
     </section><!-- End Bus Stop Section -->
