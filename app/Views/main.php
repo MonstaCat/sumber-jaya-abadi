@@ -315,7 +315,7 @@
                                     <div class="row mt-4 mb-2">
                                         <div class="col-3">
                                             <div class="form-check">
-                                                <input class="rute" type="checkbox" value="Koridor 1" id="koridor1a" checked="true">
+                                                <input class="rute" type="checkbox" value="Koridor 1" id="koridor1" checked="true">
                                                 <label class="form-check-label" for="koridor1">
                                                     Rute Koridor 1
                                                 </label>
@@ -350,9 +350,9 @@
                                     <div class="row mb-2">
                                         <div class="col-3">
                                             <div class="form-check">
-                                                <input class="rute" type="checkbox" value="" id="">
-                                                <label class="form-check-label" for="">
-                                                    Reserved
+                                                <input class="rute" type="checkbox" value="Koridor 4A - 4C" id="koridor4a4c" checked="true">
+                                                <label class=" form-check-label" for="koridor4a4c">
+                                                    Rute Koridor 4A - 4C
                                                 </label>
                                             </div>
                                         </div>
