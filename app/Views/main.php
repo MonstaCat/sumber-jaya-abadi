@@ -202,7 +202,7 @@
                     </div>
                     <div class="col-2">
                         <div class="form-check">
-                            <input class="koridor" type="checkbox" value="4b" id="kodridor4b" checked="true">
+                            <input class="koridor" type="checkbox" value="4B" id="kodridor4b" checked="true">
                             <label class="form-check-label" for="kodridor4b">
                                 Koridor 4B
                             </label>
@@ -212,7 +212,7 @@
                 <div class="row">
                     <div class="col-2">
                         <div class="form-check">
-                            <input class="koridor" type="checkbox" value="4c" id="kodridor4c" checked="true">
+                            <input class="koridor" type="checkbox" value="4C" id="kodridor4c" checked="true">
                             <label class="form-check-label" for="kodridor4c">
                                 Koridor 4C
                             </label>
@@ -236,7 +236,7 @@
                     </div>
                     <div class="col-2">
                         <div class="form-check">
-                            <input class="koridor" type="checkbox" value="7a" id="kodridor7a" checked="true">
+                            <input class="koridor" type="checkbox" value="7A" id="kodridor7a" checked="true">
                             <label class="form-check-label" for="kodridor7a">
                                 Koridor 7A
                             </label>
@@ -244,7 +244,7 @@
                     </div>
                     <div class="col-2">
                         <div class="form-check">
-                            <input class="koridor" type="checkbox" value="7b" id="kodridor7b" checked="true">
+                            <input class="koridor" type="checkbox" value="7B" id="kodridor7b" checked="true">
                             <label class="form-check-label" for="kodridor7b">
                                 Koridor 7B
                             </label>
@@ -252,7 +252,7 @@
                     </div>
                     <div class="col-2">
                         <div class="form-check">
-                            <input class="koridor" type="checkbox" value="8a" id="kodridor8a" checked="true">
+                            <input class="koridor" type="checkbox" value="8A" id="kodridor8a" checked="true">
                             <label class="form-check-label" for="kodridor8a">
                                 Koridor 8A
                             </label>
@@ -262,7 +262,7 @@
                 <div class="row">
                     <div class="col-2">
                         <div class="form-check">
-                            <input class="koridor" type="checkbox" value="8b" id="kodridor8b" checked="true">
+                            <input class="koridor" type="checkbox" value="8B" id="kodridor8b" checked="true">
                             <label class="form-check-label" for="kodridor8b">
                                 Koridor 8B
                             </label>

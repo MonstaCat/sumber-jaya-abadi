@@ -12,6 +12,31 @@
   height: 600px;
 }
 
+.koridor:checked[type=checkbox] {
+  background-image: url(/assets/img/checked.svg);
+}
+
+.koridor:checked {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.koridor[type=checkbox] {
+  border-radius: 0.25em;
+  float: left;
+  margin-left: -1.5em;
+  width: 1em;
+  height: 1em;
+  margin-top: 0.25em;
+  vertical-align: top;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 1px solid rgba(0,0,0,.25);
+  appearance: none;
+  -webkit-print-color-adjust: exact;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -22,7 +47,6 @@ body {
 
 a {
   color: #5846f9;
-  
   text-decoration: none;
 }
 
