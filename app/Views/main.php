@@ -163,12 +163,12 @@
 
                 <div class="faq-list">
                     <ul>
-                        <li data-aos="fade-up" data-aos="fade-up" data-aos-delay="100">
+                        <li data-aos="fade-up" data-aos-delay="100">
                             <i class="bx bx-task icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Jenis Koridor <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                            <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
+                            <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
                                 <div class="mb-3"></div>
                                 <div class="inputs" id="koridors">
-                                    <div class="row">
+                                    <div class="row mt-4 mb-2">
                                         <div class="col-2">
                                             <div class="form-check">
                                                 <input class="koridor" type="checkbox" value="1A" id="koridor1a" checked="true">
@@ -219,7 +219,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row mb-2">
                                         <div class="col-2">
                                             <div class="form-check">
                                                 <input class="koridor" type="checkbox" value="4C" id="kodridor4c" checked="true">
@@ -299,6 +299,118 @@
                                                 <input class="koridor" type="checkbox" value="haltetransit" id="haltetransit" checked="true">
                                                 <label class="form-check-label" for="haltetransit">
                                                     Halte Transit
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="200">
+                            <i class="bx bx-task icon-help"></i> <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#faq-list-2">Rute Koridor <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                                <div class="mb-3"></div>
+                                <div class="inputs" id="rute">
+                                    <div class="row mt-4 mb-2">
+                                        <div class="col-3">
+                                            <div class="form-check">
+                                                <input class="rute" type="checkbox" value="Koridor 1" id="koridor1a" checked="true">
+                                                <label class="form-check-label" for="koridor1">
+                                                    Rute Koridor 1
+                                                </label>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="form-check">
+                                                <input class="rute" type="checkbox" value="Koridor 1A - 6 " id="koridor1a6" checked="true">
+                                                <label class="form-check-label" for="koridor1a6">
+                                                    Rute Koridor 1A - 6
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="form-check">
+                                                <input class="rute" type="checkbox" value="Koridor 3" id="koridor3" checked="true">
+                                                <label class="form-check-label" for="koridor3">
+                                                    Rute Koridor 3
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="form-check">
+                                                <input class="rute" type="checkbox" value="Koridor 7A" id="koridor7a" checked="true">
+                                                <label class="form-check-label" for="koridor7a">
+                                                    Rute Koridor 7A
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-2">
+                                        <div class="col-3">
+                                            <div class="form-check">
+                                                <input class="rute" type="checkbox" value="4A" id="kodridor4a" checked="true">
+                                                <label class="form-check-label" for="kodridor4a">
+                                                    Rute Koridor 4A
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="form-check">
+                                                <input class="rute" type="checkbox" value="" id="">
+                                                <label class="form-check-label" for="">
+                                                    Reserved
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="form-check">
+                                                <input class="rute" type="checkbox" value="" id="">
+                                                <label class="form-check-label" for="">
+                                                    Reserved
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="form-check">
+                                                <input class="rute" type="checkbox" value="" id="">
+                                                <label class="form-check-label" for="">
+                                                    Reserved
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="form-check">
+                                                <input class="rute" type="checkbox" value="" id="">
+                                                <label class="form-check-label" for="">
+                                                    Reserved
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="form-check">
+                                                <input class="rute" type="checkbox" value="" id="">
+                                                <label class="form-check-label" for="">
+                                                    Reserved
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="form-check">
+                                                <input class="rute" type="checkbox" value="" id="">
+                                                <label class="form-check-label" for="">
+                                                    Reserved
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="form-check">
+                                                <input class="rute" type="checkbox" value="" id="">
+                                                <label class="form-check-label" for="">
+                                                    Reserved
                                                 </label>
                                             </div>
                                         </div>
