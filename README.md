@@ -2,7 +2,9 @@
 
 ## Sumber Jaya Abadi
 
+Bismillah, semoga selesai____
+
 Anggota Kelompok:
-Andika Rizki Pradana
-Reza Fanfana Yulius
+Andika Rizki Pradana__
+Reza Fanfana Yulius__
 Farah Fadhila
