@@ -10,8 +10,9 @@
                 <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
                 <li><a class="nav-link scrollto" href="#about">About</a></li>
                 <li><a class="nav-link scrollto" href="#counts">Counts</a></li>
-                <li><a class="nav-link scrollto" href="#services">Services</a></li>
+                <li><a class="nav-link scrollto" href="#services">Procedures</a></li>
                 <li><a class="nav-link scrollto " href="#bus_stop">Bus Stop</a></li>
+                <li><a class="nav-link scrollto " href="#faq">FAQ</a></li>
                 <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
                 <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
             </ul>
