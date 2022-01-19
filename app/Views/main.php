@@ -358,7 +358,82 @@
 
                     pointToLayer: function(feature, latlng) {
                         switch (feature.properties.Koridor) {
+                            case "1A":
+                                return L.marker(latlng, {
+                                    icon: busIcon2
+                                });
+                                break;
+                            case "1":
+                                return L.marker(latlng, {
+                                    icon: busIcon2
+                                });
+                                break;
+                            case "2":
+                                return L.marker(latlng, {
+                                    icon: busIcon2
+                                });
+                                break;
+                            case "3":
+                                return L.marker(latlng, {
+                                    icon: busIcon2
+                                });
+                                break;
                             case "4A":
+                                return L.marker(latlng, {
+                                    icon: busIcon2
+                                });
+                                break;
+                            case "4B":
+                                return L.marker(latlng, {
+                                    icon: busIcon2
+                                });
+                                break;
+                            case "4C":
+                                return L.marker(latlng, {
+                                    icon: busIcon2
+                                });
+                                break;
+                            case "5":
+                                return L.marker(latlng, {
+                                    icon: busIcon2
+                                });
+                                break;
+                            case "6":
+                                return L.marker(latlng, {
+                                    icon: busIcon2
+                                });
+                                break;
+                            case "7A":
+                                return L.marker(latlng, {
+                                    icon: busIcon2
+                                });
+                                break;
+                            case "7B":
+                                return L.marker(latlng, {
+                                    icon: busIcon2
+                                });
+                                break;
+                            case "8A":
+                                return L.marker(latlng, {
+                                    icon: busIcon2
+                                });
+                                break;
+                            case "8B":
+                                return L.marker(latlng, {
+                                    icon: busIcon2
+                                });
+                                break;
+                            case "9":
+                                return L.marker(latlng, {
+                                    icon: busIcon2
+                                });
+                                break;
+                            case "10":
+                                return L.marker(latlng, {
+                                    icon: busIcon2
+                                });
+                                break;
+                            case "HalteTransit":
                                 return L.marker(latlng, {
                                     icon: busIcon2
                                 });
@@ -423,23 +498,22 @@
     </section>
     <!-- End Bus Stop Section -->
 
-    <!--    Koridor 1A = #44123c
-            Koridor 01 = #00318a
-            Koridor 02 = #06552e
-            Koridor 03 = #c87022
-            Koridor 4A = #b21a1f
-            Koridor 4B = #b21a1f
-            Koridor 4C = #ad1818
-            Koridor 05 = #872a6b
-            Koridor 06 = #68344d
-            Koridor 7A = #01928d
-            Koridor 7B = #076a59
-            Koridor 8A = #7ca71d
-            Koridor 8B = #7ca71d
-            Koridor 09 = #7ca71d
-            Koridor 10 = #7ca71d
-            Halte Transit  = #7ca71d
-         -->
+    // Koridor 1A = #44123c
+    // Koridor 01 = #00318a
+    // Koridor 02 = #06552e
+    // Koridor 03 = #c87022
+    // Koridor 4A = #b21a1f
+    // Koridor 4B = #b21a1f
+    // Koridor 4C = #ad1818
+    // Koridor 05 = #872a6b
+    // Koridor 06 = #68344d
+    // Koridor 7A = #01928d
+    // Koridor 7B = #076a59
+    // Koridor 8A = #7ca71d
+    // Koridor 8B = #7ca71d
+    // Koridor 09 = #7ca71d
+    // Koridor 10 = #7ca71d
+    // Halte Transit = #7ca71d
 
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq">
