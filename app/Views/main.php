@@ -152,151 +152,166 @@
     </section><!-- End Procedures Section -->
 
     <!-- ======= Bus Stop Section ======= -->
-    <section id="bus_stop" class="bus_stop">
-        <div class="section-title">
-            <h2>BUS STOP</h2>
-            <p>Peta sebaran Halte Bus Trans Metro Pekanbaru.</p>
-        </div>
-        <div class="container">
-            <div class="inputs" id="koridors">
-                <div class="row">
-                    <div class="col-2">
-                        <div class="form-check">
-                            <input class="koridor" type="checkbox" value="1A" id="koridor1a" checked="true">
-                            <label class="form-check-label" for="koridor1a">
-                                Koridor 1A
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="form-check">
-                            <input class="koridor" type="checkbox" value="01" id="kodridor01" checked="true">
-                            <label class="form-check-label" for="kodridor01">
-                                Koridor 01
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="form-check">
-                            <input class="koridor" type="checkbox" value="02" id="kodridor02" checked="true">
-                            <label class="form-check-label" for="kodridor02">
-                                Koridor 02
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="form-check">
-                            <input class="koridor" type="checkbox" value="03" id="kodridor03" checked="true">
-                            <label class="form-check-label" for="kodridor03">
-                                Koridor 03
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="form-check">
-                            <input class="koridor" type="checkbox" value="4A" id="kodridor4a" checked="true">
-                            <label class="form-check-label" for="kodridor4a">
-                                Koridor 4A
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="form-check">
-                            <input class="koridor" type="checkbox" value="4B" id="kodridor4b" checked="true">
-                            <label class="form-check-label" for="kodridor4b">
-                                Koridor 4B
-                            </label>
-                        </div>
-                    </div>
+    <section id="bus_stop" class="bus_stop p-0">
+
+        <div class="faq pt-5 pb-5" data-aos="fade-up">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>BUS STOP</h2>
+                    <p>Peta sebaran Halte Bus Trans Metro Pekanbaru.</p>
                 </div>
-                <div class="row">
-                    <div class="col-2">
-                        <div class="form-check">
-                            <input class="koridor" type="checkbox" value="4C" id="kodridor4c" checked="true">
-                            <label class="form-check-label" for="kodridor4c">
-                                Koridor 4C
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="form-check">
-                            <input class="koridor" type="checkbox" value="05" id="kodridor05" checked="true">
-                            <label class="form-check-label" for="kodridor05">
-                                Koridor 05
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="form-check">
-                            <input class="koridor" type="checkbox" value="06" id="kodridor06" checked="true">
-                            <label class="form-check-label" for="kodridor06">
-                                Koridor 06
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="form-check">
-                            <input class="koridor" type="checkbox" value="7A" id="kodridor7a" checked="true">
-                            <label class="form-check-label" for="kodridor7a">
-                                Koridor 7A
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="form-check">
-                            <input class="koridor" type="checkbox" value="7B" id="kodridor7b" checked="true">
-                            <label class="form-check-label" for="kodridor7b">
-                                Koridor 7B
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="form-check">
-                            <input class="koridor" type="checkbox" value="8A" id="kodridor8a" checked="true">
-                            <label class="form-check-label" for="kodridor8a">
-                                Koridor 8A
-                            </label>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-2">
-                        <div class="form-check">
-                            <input class="koridor" type="checkbox" value="8B" id="kodridor8b" checked="true">
-                            <label class="form-check-label" for="kodridor8b">
-                                Koridor 8B
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="form-check">
-                            <input class="koridor" type="checkbox" value="09" id="kodridor09" checked="true">
-                            <label class="form-check-label" for="kodridor09">
-                                Koridor 09
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="form-check">
-                            <input class="koridor" type="checkbox" value="10" id="kodridor10" checked="true">
-                            <label class="form-check-label" for="kodridor10">
-                                Koridor 10
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="form-check">
-                            <input class="koridor" type="checkbox" value="haltetransit" id="haltetransit" checked="true">
-                            <label class="form-check-label" for="haltetransit">
-                                Halte Transit
-                            </label>
-                        </div>
-                    </div>
+
+                <div class="faq-list">
+                    <ul>
+                        <li data-aos="fade-up" data-aos="fade-up" data-aos-delay="100">
+                            <i class="bx bx-task icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Jenis Koridor <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
+                            <div class="mb-3"></div>    
+                            <div class="inputs" id="koridors">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="form-check">
+                                                <input class="koridor" type="checkbox" value="1A" id="koridor1a" checked="true">
+                                                <label class="form-check-label" for="koridor1a">
+                                                    Koridor 1A
+                                                </label>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="form-check">
+                                                <input class="koridor" type="checkbox" value="01" id="kodridor01" checked="true">
+                                                <label class="form-check-label" for="kodridor01">
+                                                    Koridor 01
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="form-check">
+                                                <input class="koridor" type="checkbox" value="02" id="kodridor02" checked="true">
+                                                <label class="form-check-label" for="kodridor02">
+                                                    Koridor 02
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="form-check">
+                                                <input class="koridor" type="checkbox" value="03" id="kodridor03" checked="true">
+                                                <label class="form-check-label" for="kodridor03">
+                                                    Koridor 03
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="form-check">
+                                                <input class="koridor" type="checkbox" value="4A" id="kodridor4a" checked="true">
+                                                <label class="form-check-label" for="kodridor4a">
+                                                    Koridor 4A
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="form-check">
+                                                <input class="koridor" type="checkbox" value="4B" id="kodridor4b" checked="true">
+                                                <label class="form-check-label" for="kodridor4b">
+                                                    Koridor 4B
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="form-check">
+                                                <input class="koridor" type="checkbox" value="4C" id="kodridor4c" checked="true">
+                                                <label class="form-check-label" for="kodridor4c">
+                                                    Koridor 4C
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="form-check">
+                                                <input class="koridor" type="checkbox" value="05" id="kodridor05" checked="true">
+                                                <label class="form-check-label" for="kodridor05">
+                                                    Koridor 05
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="form-check">
+                                                <input class="koridor" type="checkbox" value="06" id="kodridor06" checked="true">
+                                                <label class="form-check-label" for="kodridor06">
+                                                    Koridor 06
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="form-check">
+                                                <input class="koridor" type="checkbox" value="7A" id="kodridor7a" checked="true">
+                                                <label class="form-check-label" for="kodridor7a">
+                                                    Koridor 7A
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="form-check">
+                                                <input class="koridor" type="checkbox" value="7B" id="kodridor7b" checked="true">
+                                                <label class="form-check-label" for="kodridor7b">
+                                                    Koridor 7B
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="form-check">
+                                                <input class="koridor" type="checkbox" value="8A" id="kodridor8a" checked="true">
+                                                <label class="form-check-label" for="kodridor8a">
+                                                    Koridor 8A
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <div class="form-check">
+                                                <input class="koridor" type="checkbox" value="8B" id="kodridor8b" checked="true">
+                                                <label class="form-check-label" for="kodridor8b">
+                                                    Koridor 8B
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="form-check">
+                                                <input class="koridor" type="checkbox" value="09" id="kodridor09" checked="true">
+                                                <label class="form-check-label" for="kodridor09">
+                                                    Koridor 09
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="form-check">
+                                                <input class="koridor" type="checkbox" value="10" id="kodridor10" checked="true">
+                                                <label class="form-check-label" for="kodridor10">
+                                                    Koridor 10
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="form-check">
+                                                <input class="koridor" type="checkbox" value="haltetransit" id="haltetransit" checked="true">
+                                                <label class="form-check-label" for="haltetransit">
+                                                    Halte Transit
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
 
-        <div class="container">
+        <div class="container mt-5">
             <div id="map"></div>
             <script src="<?= base_url('assets/json/data-halte.js') ?>" type="text/javascript"></script>
             <div id="map"></div>
