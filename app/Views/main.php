@@ -6,8 +6,7 @@
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
         <div class="container">
-
-            <!-- <div class="row">
+            <div class="row">
                 <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
                     <img src="assets/img/about.jpg" class="img-fluid" alt="">
                 </div>
@@ -24,64 +23,7 @@
                     </ul>
                     <a href="#" class="read-more">Read More <i class="bi bi-long-arrow-right"></i></a>
                 </div>
-            </div> -->
-
-            <div id="map"></div>
-            <script src="<?= base_url('assets/json/data-halte.js') ?>" type="text/javascript"></script>
-            <!-- MAP SCRIPT -->
-            <script>
-                // Open Street Map Integration
-                var map = L.map('map').setView([0.510394, 101.448786], 12);
-
-                var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-                    maxZoom: 18,
-                    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
-                        'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-                    id: 'mapbox/light-v9',
-                    tileSize: 512,
-                    zoomOffset: -1
-                }).addTo(map);
-
-                // Icon
-                var busIcon = L.icon({
-                    iconUrl: '<?= base_url('assets/img/bus.png') ?>',
-                    iconSize: [12, 17],
-                    iconAnchor: [16, 37],
-                    popupAnchor: [0, -28]
-                });
-
-                // function onEachFeature(feature, layer) {
-                //     var popupContent = layer.bindPopup('<h1>' + feature.properties.Nama_Halte + '</h1><p>name: ' + feature.properties.Koridor + '</p>');
-
-                //     if (feature.properties && feature.properties.popupContent) {
-                //         popupContent += feature.properties.popupContent;
-                //     }
-
-                //     layer.bindPopup(popupContent);
-                // }
-
-                var coorsLayer = L.geoJSON(halte_bus, {
-
-                    pointToLayer: function(feature, latlng) {
-                        return L.marker(latlng, {
-                            icon: busIcon
-                        });
-                    },
-
-                    onEachFeature: function(feature, layer) {
-                        layer.bindPopup(
-                            '<p><b>Nama Halte:</b> <br>' + feature.properties.Nama_Halte +
-                            '</p><p><b>Koridor:</b> <br>' + feature.properties.Koridor + '</p>' +
-                            '</p><p><b>Alamat:</b> <br>' + feature.properties.Alamat + '</p>' +
-                            '</p><p><b>Tujuan:</b> <br>' + feature.properties.Tujuan + '</p>' +
-                            '</p><p><b>Rute:</b> <br>' + feature.properties.Rute + '</p>' +
-                            '</p><p><b>Kelayakan:</b> <br>' + feature.properties.Kelayakan + '</p>'
-                        );
-                    }
-
-                }).addTo(map);
-            </script>
-
+            </div>
         </div>
     </section><!-- End About Section -->
 
@@ -333,158 +275,210 @@
         </div>
     </section><!-- End Testimonials Section -->
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-        <div class="container" data-aos="fade-up">
-
-            <div class="section-title">
-                <h2>Portfolio</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12 d-flex justify-content-center">
-                    <ul id="portfolio-flters">
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">App</li>
-                        <li data-filter=".filter-card">Card</li>
-                        <li data-filter=".filter-web">Web</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row portfolio-container">
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 1</h4>
-                            <p>App</p>
-                        </div>
-                        <div class="portfolio-links">
-                            <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Web 3</h4>
-                            <p>Web</p>
-                        </div>
-                        <div class="portfolio-links">
-                            <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 2</h4>
-                            <p>App</p>
-                        </div>
-                        <div class="portfolio-links">
-                            <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Card 2</h4>
-                            <p>Card</p>
-                        </div>
-                        <div class="portfolio-links">
-                            <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Web 2</h4>
-                            <p>Web</p>
-                        </div>
-                        <div class="portfolio-links">
-                            <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 3</h4>
-                            <p>App</p>
-                        </div>
-                        <div class="portfolio-links">
-                            <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Card 1</h4>
-                            <p>Card</p>
-                        </div>
-                        <div class="portfolio-links">
-                            <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Card 3</h4>
-                            <p>Card</p>
-                        </div>
-                        <div class="portfolio-links">
-                            <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Web 3</h4>
-                            <p>Web</p>
-                        </div>
-                        <div class="portfolio-links">
-                            <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
+    <!-- ======= Bus Stop Section ======= -->
+    <section id="bus_stop" class="bus_stop">
+        <div class="section-title">
+            <h2>BUS STOP</h2>
+            <p>Peta sebaran Halte Bus Trans Metro Pekanbaru.</p>
         </div>
-    </section><!-- End Portfolio Section -->
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="1A" id="koridor1a">
+                        <label class="form-check-label" for="koridor1a">
+                            Koridor 1A
+                        </label>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="01" id="kodridor01">
+                        <label class="form-check-label" for="kodridor01">
+                            Koridor 01
+                        </label>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="02" id="kodridor02">
+                        <label class="form-check-label" for="kodridor02">
+                            Koridor 02
+                        </label>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="03" id="kodridor03">
+                        <label class="form-check-label" for="kodridor03">
+                            Koridor 03
+                        </label>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="4a" id="kodridor4a">
+                        <label class="form-check-label" for="kodridor4a">
+                            Koridor 4A
+                        </label>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="4b" id="kodridor4b">
+                        <label class="form-check-label" for="kodridor4b">
+                            Koridor 4B
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="4c" id="kodridor4c">
+                        <label class="form-check-label" for="kodridor4c">
+                            Koridor 4C
+                        </label>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="05" id="kodridor05">
+                        <label class="form-check-label" for="kodridor05">
+                            Koridor 05
+                        </label>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="06" id="kodridor06">
+                        <label class="form-check-label" for="kodridor06">
+                            Koridor 06
+                        </label>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="7a" id="kodridor7a">
+                        <label class="form-check-label" for="kodridor7a">
+                            Koridor 7A
+                        </label>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="7b" id="kodridor7b">
+                        <label class="form-check-label" for="kodridor7b">
+                            Koridor 7B
+                        </label>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="8a" id="kodridor8a">
+                        <label class="form-check-label" for="kodridor8a">
+                            Koridor 8A
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="8b" id="kodridor8b">
+                        <label class="form-check-label" for="kodridor8b">
+                            Koridor 8B
+                        </label>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="09" id="kodridor09">
+                        <label class="form-check-label" for="kodridor09">
+                            Koridor 09
+                        </label>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="10" id="kodridor10">
+                        <label class="form-check-label" for="kodridor10">
+                            Koridor 10
+                        </label>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="haltetransit" id="haltetransit">
+                        <label class="form-check-label" for="haltetransit">
+                            Halte Transit
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div id="map"></div>
+            <script src="<?= base_url('assets/json/data-halte.js') ?>" type="text/javascript"></script>
+            <div id="map"></div>
+            <script src="<?= base_url('assets/json/data-halte.js') ?>" type="text/javascript"></script>
+            <!-- MAP SCRIPT -->
+            <script>
+                // Open Street Map Integration
+                var map = L.map('map').setView([0.510394, 101.448786], 12);
+
+                var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+                    maxZoom: 18,
+                    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
+                        'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                    id: 'mapbox/light-v9',
+                    tileSize: 512,
+                    zoomOffset: -1
+                }).addTo(map);
+
+                // Icon
+                var busIcon = L.icon({
+                    iconUrl: '<?= base_url('assets/img/bus.png') ?>',
+                    iconSize: [12, 17],
+                    iconAnchor: [16, 37],
+                    popupAnchor: [0, -28]
+                });
+
+                // function onEachFeature(feature, layer) {
+                //     var popupContent = layer.bindPopup('<h1>' + feature.properties.Nama_Halte + '</h1><p>name: ' + feature.properties.Koridor + '</p>');
+
+                //     if (feature.properties && feature.properties.popupContent) {
+                //         popupContent += feature.properties.popupContent;
+                //     }
+
+                //     layer.bindPopup(popupContent);
+                // }
+
+                var coorsLayer = L.geoJSON(halte_bus, {
+
+                    pointToLayer: function(feature, latlng) {
+                        return L.marker(latlng, {
+                            icon: busIcon
+                        });
+                    },
+
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup(
+                            '<p><b>Nama Halte:</b> <br>' + feature.properties.Nama_Halte +
+                            '</p><p><b>Koridor:</b> <br>' + feature.properties.Koridor + '</p>' +
+                            '</p><p><b>Alamat:</b> <br>' + feature.properties.Alamat + '</p>' +
+                            '</p><p><b>Tujuan:</b> <br>' + feature.properties.Tujuan + '</p>' +
+                            '</p><p><b>Rute:</b> <br>' + feature.properties.Rute + '</p>' +
+                            '</p><p><b>Kelayakan:</b> <br>' + feature.properties.Kelayakan + '</p>'
+                        );
+                    }
+
+                }).addTo(map);
+            </script>
+        </div>
+    </section><!-- End Bus Stop Section -->
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing section-bg">
