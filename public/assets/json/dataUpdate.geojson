@@ -18,8 +18,8 @@
                 "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, Bandar Serai Purna MTQ, Masuk Bandar Sultan Syarif Kasim II",
                 "Rute": "Sudirman–Bandara SSK II",
                 "Kelayakan": "Layak",
-                "X": 0.437622,
-                "Y": 101.4235596
+                "X": 0.4375,
+                "Y": 101.4231
             },
             "id": 0
         },
@@ -28,8 +28,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    101.4237060546875,
-                    0.43768310546875
+                    101.4231,
+                    0.4375
                 ]
             },
             "properties": {
@@ -40,8 +40,8 @@
                 "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, Bandar Serai Purna MTQ, Masuk Bandar Sultan Syarif Kasim II",
                 "Rute": "Sudirman–Bandara SSK II",
                 "Kelayakan": "Layak",
-                "X": 0.437622,
-                "Y": 101.4235596
+                "X": 0.4442,
+                "Y": 101.4193
             },
             "id": 1
         },
@@ -50,8 +50,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    101.419677734375,
-                    0.44427490234375
+                    101.4193,
+                    0.4442
                 ]
             },
             "properties": {
@@ -194,8 +194,8 @@
                 "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, Bandar Serai Purna MTQ, Masuk Bandar Sultan Syarif Kasim II",
                 "Rute": "Sudirman–Bandara SSK II",
                 "Kelayakan": "Layak",
-                "X": 0.481334,
-                "Y": 101.3948895
+                "X": 0.4813,
+                "Y": 101.3952
             },
             "id": 8
         },
@@ -204,8 +204,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    101.3948974609375,
-                    0.4813232421875
+                    101.3952,
+                    0.4813
                 ]
             },
             "properties": {
@@ -238,8 +238,8 @@
                 "Tujuan": "RS Awal Bross, Jalan Jenderal Sudirman, Bandar Serai Purna MTQ, Masuk Bandar Sultan Syarif Kasim II",
                 "Rute": "Sudirman–Bandara SSK II",
                 "Kelayakan": "Layak",
-                "X": 0.483222,
-                "Y": 101.3956188
+                "X": 0.4833,
+                "Y": 101.3946
             },
             "id": 10
         },
@@ -248,8 +248,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    101.39569091796875,
-                    0.4832763671875
+                    101.3946,
+                    0.4833
                 ]
             },
             "properties": {
