@@ -311,7 +311,7 @@
                             <i class="bx bx-task icon-help"></i> <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#faq-list-2">Rute Koridor <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                                 <div class="mb-3"></div>
-                                <div class="inputs" id="rute">
+                                <div class="inputs" id="rutes">
                                     <div class="row mt-4 mb-2">
                                         <div class="col-3">
                                             <div class="form-check">
@@ -324,7 +324,7 @@
                                         </div>
                                         <div class="col-3">
                                             <div class="form-check">
-                                                <input class="rute" type="checkbox" value="Koridor 1A - 6 " id="koridor1a6" checked="true">
+                                                <input class="rute" type="checkbox" value="Koridor 1A - 6" id="koridor1a6" checked="true">
                                                 <label class="form-check-label" for="koridor1a6">
                                                     Rute Koridor 1A - 6
                                                 </label>
@@ -350,9 +350,9 @@
                                     <div class="row mb-2">
                                         <div class="col-3">
                                             <div class="form-check">
-                                                <input class="rute" type="checkbox" value="4A" id="kodridor4a" checked="true">
-                                                <label class="form-check-label" for="kodridor4a">
-                                                    Rute Koridor 4A
+                                                <input class="rute" type="checkbox" value="" id="">
+                                                <label class="form-check-label" for="">
+                                                    Reserved
                                                 </label>
                                             </div>
                                         </div>
@@ -426,6 +426,7 @@
         <div class="container mt-5 mb-5">
             <div id="map"></div>
             <script src="<?= base_url('assets/json/data-halte.js') ?>" type="text/javascript"></script>
+            <script src="<?= base_url('assets/json/data-rute.js') ?>" type="text/javascript"></script>
             <!-- MAP SCRIPT -->
             <script>
                 let checkboxStates;
@@ -546,16 +547,6 @@
                     popupAnchor: [0, -28]
                 });
 
-                function onEachFeature(feature, layer) {
-                    var popupContent = layer.bindPopup('<h1>' + feature.properties.Nama_Halte + '</h1><p>name: ' + feature.properties.Koridor + '</p>');
-
-                    if (feature.properties && feature.properties.popupContent) {
-                        popupContent += feature.properties.popupContent;
-                    }
-
-                    layer.bindPopup(popupContent);
-                }
-
                 var coorsLayer = L.geoJSON(null, {
 
                     pointToLayer: function(feature, latlng) {
@@ -660,16 +651,26 @@
 
                     filter: (feature) => {
                         return isKoridorChecked = checkboxStates.koridors.includes(feature.properties.Koridor);
-                        // const isEventTypeChecked = checkboxStates.eventTypes.includes(feature.properties.eventType)
-                        // return isYearChecked && isEventTypeChecked 
                     }
 
+                }).addTo(map);
+
+                var ruteKoridor = L.geoJSON(null, {
+                    onEachFeature: function(feature, layer) {
+                        layer.bindPopup(
+                            '<p><b>Rute Koridor:</b> <br>' + feature.properties.RuteKoridor
+                        );
+                    },
+
+                    filter: (feature) => {
+                        return isRuteChecked = checkboxStates.rutes.includes(feature.properties.RuteKoridor);
+                    }
                 }).addTo(map);
 
                 function updateCheckboxStates() {
                     checkboxStates = {
                         koridors: [],
-                        // eventTypes: []
+                        rutes: []
                     }
 
                     for (let input of document.querySelectorAll('input')) {
@@ -677,6 +678,9 @@
                             switch (input.className) {
                                 case 'koridor':
                                     checkboxStates.koridors.push(input.value);
+                                    break
+                                case 'rute':
+                                    checkboxStates.rutes.push(input.value);
                                     break
                             }
                         }
@@ -687,14 +691,17 @@
                     //Listen to 'change' event of all inputs
                     input.onchange = (e) => {
                         coorsLayer.clearLayers()
+                        ruteKoridor.clearLayers()
                         updateCheckboxStates()
                         coorsLayer.addData(halte_bus)
+                        ruteKoridor.addData(rute_bus)
                     }
                 }
 
                 // Init function
                 updateCheckboxStates();
                 coorsLayer.addData(halte_bus);
+                ruteKoridor.addData(rute_bus);
             </script>
         </div>
     </section>
