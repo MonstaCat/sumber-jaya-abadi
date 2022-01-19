@@ -22,67 +22,7 @@
                         <li><i class="bi bi-check-circle"></i> KORIDOR 3: PANAM - KAMPUS UIN – AKSES SUDIRMAN</li>
                     </ul>
                 </div>
-<<<<<<< HEAD
-            </div> -->
-
-            <script src="<?= base_url('assets/json/data-halte.js') ?>" type="text/javascript"></script>
-            <div id="map"></div>
-
-            <!-- Map Filtering Section -->
-
-            <!-- MAP SCRIPT -->
-            <script>
-                // Open Street Map Integration
-                var map = L.map('map').setView([0.510394, 101.448786], 12);
-
-                var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-                    maxZoom: 18,
-                    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
-                        'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-                    id: 'mapbox/light-v9',
-                    tileSize: 512,
-                    zoomOffset: -1
-                }).addTo(map);
-
-                // Icon
-                var busIcon = L.icon({
-                    iconUrl: '<?= base_url('assets/img/bus.png') ?>',
-                    iconSize: [12, 17],
-                    iconAnchor: [16, 37],
-                    popupAnchor: [0, -28]
-                });
-
-                var coorsLayer = L.geoJSON(halte_bus, {
-
-                    pointToLayer: function(feature, latlng) {
-                        return L.marker(latlng, {
-                            icon: busIcon
-                        });
-                    },
-
-                    filter: koridorFilter,
-
-                    onEachFeature: function(feature, layer) {
-                        layer.bindPopup(
-                            '<p><b>Nama Halte:</b> <br>' + feature.properties.Nama_Halte +
-                            '</p><p><b>Koridor:</b> <br>' + feature.properties.Koridor + '</p>' +
-                            '</p><p><b>Alamat:</b> <br>' + feature.properties.Alamat + '</p>' +
-                            '</p><p><b>Tujuan:</b> <br>' + feature.properties.Tujuan + '</p>' +
-                            '</p><p><b>Rute:</b> <br>' + feature.properties.Rute + '</p>' +
-                            '</p><p><b>Kelayakan:</b> <br>' + feature.properties.Kelayakan + '</p>'
-                        );
-                    }
-
-                }).addTo(map);
-
-                function koridorFilter(feature) {
-                    if (feature.properties.Koridor === "4A") return true
-                }
-            </script>
-
-=======
             </div>
->>>>>>> 1478bc8482b07d987b0e9c5036c969352fb3d6a2
         </div>
     </section><!-- End About Section -->
 
