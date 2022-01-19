@@ -166,8 +166,8 @@
                         <li data-aos="fade-up" data-aos="fade-up" data-aos-delay="100">
                             <i class="bx bx-task icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Jenis Koridor <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
-                            <div class="mb-3"></div>    
-                            <div class="inputs" id="koridors">
+                                <div class="mb-3"></div>
+                                <div class="inputs" id="koridors">
                                     <div class="row">
                                         <div class="col-2">
                                             <div class="form-check">
@@ -311,9 +311,7 @@
             </div>
         </div>
 
-        <div class="container mt-5">
-            <div id="map"></div>
-            <script src="<?= base_url('assets/json/data-halte.js') ?>" type="text/javascript"></script>
+        <div class="container mt-5 mb-5">
             <div id="map"></div>
             <script src="<?= base_url('assets/json/data-halte.js') ?>" type="text/javascript"></script>
             <!-- MAP SCRIPT -->
@@ -408,7 +406,8 @@
                 coorsLayer.addData(halte_bus);
             </script>
         </div>
-    </section><!-- End Bus Stop Section -->
+    </section>
+    <!-- End Bus Stop Section -->
 
 
     <!-- ======= Frequently Asked Questions Section ======= -->
