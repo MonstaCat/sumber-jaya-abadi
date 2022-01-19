@@ -26,8 +26,11 @@
                 </div>
             </div> -->
 
-            <div id="map"></div>
             <script src="<?= base_url('assets/json/data-halte.js') ?>" type="text/javascript"></script>
+            <div id="map"></div>
+
+            <!-- Map Filtering Section -->
+
             <!-- MAP SCRIPT -->
             <script>
                 // Open Street Map Integration
@@ -50,16 +53,6 @@
                     popupAnchor: [0, -28]
                 });
 
-                // function onEachFeature(feature, layer) {
-                //     var popupContent = layer.bindPopup('<h1>' + feature.properties.Nama_Halte + '</h1><p>name: ' + feature.properties.Koridor + '</p>');
-
-                //     if (feature.properties && feature.properties.popupContent) {
-                //         popupContent += feature.properties.popupContent;
-                //     }
-
-                //     layer.bindPopup(popupContent);
-                // }
-
                 var coorsLayer = L.geoJSON(halte_bus, {
 
                     pointToLayer: function(feature, latlng) {
@@ -67,6 +60,8 @@
                             icon: busIcon
                         });
                     },
+
+                    filter: koridorFilter,
 
                     onEachFeature: function(feature, layer) {
                         layer.bindPopup(
@@ -80,6 +75,10 @@
                     }
 
                 }).addTo(map);
+
+                function koridorFilter(feature) {
+                    if (feature.properties.Koridor === "4A") return true
+                }
             </script>
 
         </div>
