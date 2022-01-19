@@ -413,18 +413,18 @@
             Koridor 01 = #00318a
             Koridor 02 = #06552e
             Koridor 03 = #c87022
-            Koridor 4A = #b21a1f
-            Koridor 4B = #b21a1f
+            Koridor 4A = #ae1a19
+            Koridor 4B = #372819
             Koridor 4C = #ad1818
             Koridor 05 = #872a6b
             Koridor 06 = #68344d
             Koridor 7A = #01928d
             Koridor 7B = #076a59
-            Koridor 8A = #7ca71d
-            Koridor 8B = #7ca71d
-            Koridor 09 = #7ca71d
-            Koridor 10 = #7ca71d
-            Halte Transit  = #7ca71d
+            Koridor 8A = #7ba31e
+            Koridor 8B = #1b8034
+            Koridor 09 = #005ab1
+            Koridor 10 = #c99d7a
+            Halte Transit  = #0f1111
          -->
 
     <!-- ======= Frequently Asked Questions Section ======= -->
