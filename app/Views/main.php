@@ -358,25 +358,25 @@
                                         </div>
                                         <div class="col-3">
                                             <div class="form-check">
-                                                <input class="rute" type="checkbox" value="" id="">
-                                                <label class="form-check-label" for="">
-                                                    Reserved
+                                                <input class="rute" type="checkbox" value="Koridor 5" id="koridor5" checked="true">
+                                                <label class="form-check-label" for="koridor5">
+                                                    Rute Koridor 5
                                                 </label>
                                             </div>
                                         </div>
                                         <div class="col-3">
                                             <div class="form-check">
-                                                <input class="rute" type="checkbox" value="" id="">
-                                                <label class="form-check-label" for="">
-                                                    Reserved
+                                                <input class="rute" type="checkbox" value="Koridor 10" id="koridor10" checked="true">
+                                                <label class="form-check-label" for="koridor10">
+                                                    Rute Koridor 10
                                                 </label>
                                             </div>
                                         </div>
                                         <div class="col-3">
                                             <div class="form-check">
-                                                <input class="rute" type="checkbox" value="" id="">
-                                                <label class="form-check-label" for="">
-                                                    Reserved
+                                                <input class="rute" type="checkbox" value="Koridor 8A" id="koridor8a" checked="ture">
+                                                <label class="form-check-label" for="koridor8a">
+                                                    Rute Koridor 8A
                                                 </label>
                                             </div>
                                         </div>
@@ -664,6 +664,27 @@
 
                     style: function(feature) {
                         switch (feature.properties.RuteKoridor) {
+                            case 'Koridor 8A':
+                                return {
+                                    color: "#7da720",
+                                        weight: "4",
+                                        opacity: "0.5"
+                                };
+                                break;
+                            case 'Koridor 10':
+                                return {
+                                    color: "#cba27d",
+                                        weight: "4",
+                                        opacity: "0.5"
+                                };
+                                break;
+                            case 'Koridor 5':
+                                return {
+                                    color: "#862767",
+                                        weight: "4",
+                                        opacity: "0.5"
+                                };
+                                break;
                             case 'Koridor 4A - 4C':
                                 return {
                                     color: "#ab161d",
